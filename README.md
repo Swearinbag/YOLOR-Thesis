@@ -15,3 +15,8 @@ The main changes are in found in the following files, followed by the changes ma
   - added confusion matrix
 - config file:
   - subdivisions up to 16 (more accuracy, standard at 8)
+
+
+Attempted changes:
+- train.py
+  - freezing layers/showing layer structure
