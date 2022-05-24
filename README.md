@@ -17,6 +17,11 @@ The main changes are in found in the following files, followed by the changes ma
   - subdivisions up to 16 (more accuracy, standard at 8)
 
 
+
 Attempted changes:
 - train.py
   - freezing layers/showing layer structure
+- - -
+ 
+ # mAP Results
+ ![Results](https://user-images.githubusercontent.com/13786325/170146606-8470e9d3-c8d2-4f2e-9a46-fb56277f25b4.png)
