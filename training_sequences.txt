@@ -1,0 +1,16 @@
+Training:
+
+
+p64: Kaggle ; chips only
+p647: kaggle baseline more than chips
+p???: kaggle tiling without overlap start
+p???: kaggle bounding box noise
+p66: crop and mosaic
+p67: exposure and adjusted crop
+p650: no bb noise
+p610: cutout
+p656: SAHI baseline
+p660: SAHI 300epoch augments no mosaic 640
+p665: SAHI 300epoch augments no mosaic 320 (failed)
+p676: Final model 1000 epochs cutout augment
+p677: Final model 1000 epochs no cutout augment
