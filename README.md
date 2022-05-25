@@ -20,7 +20,7 @@ The main changes are in found in the following files, followed by the changes ma
 
 Attempted changes:
 - train.py
-  - freezing layers/showing layer structure
+  - freezing layers/showing layer structure (not supported by model/wrong approach)
 - - -
  
  # mAP Results
