@@ -24,4 +24,5 @@ Attempted changes:
 - - -
  
  # mAP Results
- ![Results](https://user-images.githubusercontent.com/13786325/170146606-8470e9d3-c8d2-4f2e-9a46-fb56277f25b4.png)
+
+![metrics_mAP_0 5_TP_git](https://user-images.githubusercontent.com/13786325/170313349-971ef68b-bc42-4e06-bf3f-6bf6478812c2.png)
