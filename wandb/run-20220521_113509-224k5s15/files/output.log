@@ -1,0 +1,1052 @@
+
+Scanning images: 100%|████████████████████| 5034/5034 [00:00<00:00, 5132.49it/s]
+Scanning labels PCB-upright-27/sliced/train/train.cache3 (5034 found, 0 missing, 0 empty, 0 duplicate, for 5034 images): 5034it [00:00, 8971.87it/s]
+Scanning images: 100%|██████████████████████| 514/514 [00:00<00:00, 2651.68it/s]
+Scanning labels PCB-upright-27/sliced/valid/train.cache3 (514 found, 0 missing, 0 empty, 0 duplicate, for 514 images): 514it [00:00, 7241.18it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 320 train, 320 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p661
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     0/299     3.12G   0.06914    0.1324    0.0358    0.2373        72       320
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     1/299     3.21G   0.05989    0.1091   0.02945    0.1984        75       320
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     2/299     3.21G   0.04755   0.09969   0.02761    0.1748       105       320
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     3/299     3.21G   0.03707    0.0837   0.02659    0.1474        42       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (132978, 6)
+                 all         514    3.39e+03      0.0636       0.211       0.127      0.0544
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     4/299     3.15G   0.03151   0.07715   0.02365    0.1323        70       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (127432, 6)
+                 all         514    3.39e+03      0.0992       0.218       0.171      0.0729
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     5/299     3.15G   0.02892   0.07373   0.02185    0.1245        73       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (107494, 6)
+                 all         514    3.39e+03       0.141       0.241       0.173      0.0818
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     6/299     3.15G   0.02653   0.06995   0.02039    0.1169        51       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (120522, 6)
+runs/train/yolor_p661/conf/conf_e6.jpg
+                 all         514    3.39e+03       0.132       0.281       0.206       0.111
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     7/299     3.15G   0.02535   0.06829   0.01943    0.1131        64       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (117230, 6)
+runs/train/yolor_p661/conf/conf_e7.jpg
+                 all         514    3.39e+03      0.0652     0.00813      0.0223     0.00609
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     8/299     3.15G    0.0271   0.07193    0.0192    0.1182        62       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (123406, 6)
+runs/train/yolor_p661/conf/conf_e8.jpg
+                 all         514    3.39e+03       0.147       0.342       0.225       0.121
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     9/299     3.15G   0.02509   0.06689   0.01711    0.1091        78       320
+               Class      Images     Targets           P           R      mAP@.5
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    10/299     3.15G   0.02048   0.06441   0.01421   0.09911        95       320
+targ: (3390, 5)
+pred: (129946, 6)
+runs/train/yolor_p661/conf/conf_e9.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    10/299     3.15G   0.02463   0.06594   0.01508    0.1057        97       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (117292, 6)
+runs/train/yolor_p661/conf/conf_e10.jpg
+                 all         514    3.39e+03       0.277       0.343       0.251       0.137
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    11/299     3.15G   0.02294   0.06399   0.01398    0.1009       108       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (134338, 6)
+runs/train/yolor_p661/conf/conf_e11.jpg
+                 all         514    3.39e+03       0.111       0.378        0.26       0.141
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    12/299     3.15G   0.02249   0.06112   0.01309    0.0967        64       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (128220, 6)
+runs/train/yolor_p661/conf/conf_e12.jpg
+                 all         514    3.39e+03       0.126       0.387       0.284       0.161
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    13/299     3.15G   0.02243   0.06054   0.01248   0.09545        98       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (108612, 6)
+runs/train/yolor_p661/conf/conf_e13.jpg
+                 all         514    3.39e+03        0.15       0.353        0.28       0.158
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    14/299     3.15G   0.02146   0.05849    0.0117   0.09165        78       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (102578, 6)
+runs/train/yolor_p661/conf/conf_e14.jpg
+                 all         514    3.39e+03       0.163       0.397       0.303       0.178
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    15/299     3.15G    0.0218   0.05958   0.01131   0.09269        60       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (95949, 6)
+runs/train/yolor_p661/conf/conf_e15.jpg
+                 all         514    3.39e+03        0.18       0.365       0.286       0.158
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    16/299     3.15G   0.02198   0.06084   0.01129   0.09411        64       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (106038, 6)
+runs/train/yolor_p661/conf/conf_e16.jpg
+                 all         514    3.39e+03       0.177       0.363       0.291       0.169
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    17/299     3.15G   0.02139   0.05888   0.01093    0.0912       124       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (104344, 6)
+runs/train/yolor_p661/conf/conf_e17.jpg
+                 all         514    3.39e+03       0.211       0.343       0.283       0.155
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    18/299     3.15G   0.02142    0.0585  0.009714   0.08964        50       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (117618, 6)
+runs/train/yolor_p661/conf/conf_e18.jpg
+                 all         514    3.39e+03       0.299       0.378       0.333       0.198
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    19/299     3.15G   0.02111   0.05586  0.009019   0.08599        91       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (108538, 6)
+runs/train/yolor_p661/conf/conf_e19.jpg
+                 all         514    3.39e+03       0.207       0.437       0.376       0.222
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    20/299     3.15G   0.02038   0.05506  0.009699   0.08513        83       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (81279, 6)
+runs/train/yolor_p661/conf/conf_e20.jpg
+                 all         514    3.39e+03       0.375       0.347       0.338       0.198
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    21/299     3.15G   0.02054   0.05574  0.008674   0.08495       128       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (105959, 6)
+runs/train/yolor_p661/conf/conf_e21.jpg
+                 all         514    3.39e+03       0.321       0.403       0.353       0.203
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    22/299     3.15G   0.02007     0.054  0.007637    0.0817        67       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (85150, 6)
+runs/train/yolor_p661/conf/conf_e22.jpg
+                 all         514    3.39e+03       0.283        0.34       0.336       0.197
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    23/299     3.15G   0.02144    0.0533  0.008791   0.08354       109       320
+    23/299     3.15G   0.01969   0.05108  0.007613   0.07837        68       320
+    23/299     3.15G   0.01998   0.05151  0.007668   0.07915        91       320
+    23/299     3.15G   0.01985   0.04998  0.007651   0.07747        94       320
+    23/299     3.15G   0.01966   0.05033  0.007689   0.07769        86       320
+    23/299     3.15G   0.01944   0.04987  0.007582    0.0769        91       320
+    23/299     3.15G   0.01916   0.04987  0.007377   0.07641        81       320
+    23/299     3.15G   0.01911    0.0504  0.007186    0.0767       105       320
+    23/299     3.15G    0.0194   0.05091  0.007332   0.07764       115       320
+    23/299     3.15G    0.0194   0.05103  0.007554   0.07799        96       320
+    23/299     3.15G   0.01935   0.05091  0.007421   0.07768        70       320
+    23/299     3.15G   0.01915   0.05073  0.007266   0.07714        73       320
+    23/299     3.15G   0.01915   0.05099  0.007176   0.07732       145       320
+    23/299     3.15G   0.01902   0.05122  0.007182   0.07743       134       320
+    23/299     3.15G   0.01907   0.05138  0.007218   0.07767        81       320
+    23/299     3.15G   0.01912    0.0509  0.007416   0.07744       115       320
+    23/299     3.15G   0.01909   0.05153   0.00735   0.07797        82       320
+    23/299     3.15G   0.01928   0.05214  0.007424   0.07885        95       320
+    23/299     3.15G   0.01929   0.05239  0.007416   0.07909       145       320
+    23/299     3.15G   0.01931   0.05231  0.007474   0.07909       114       320
+    23/299     3.15G   0.01927   0.05255  0.007562   0.07938       128       320
+    23/299     3.15G   0.01921   0.05258  0.007515    0.0793        63       320
+    23/299     3.15G   0.01923   0.05263  0.007654   0.07951        99       320
+    23/299     3.15G    0.0191   0.05252  0.007569   0.07919       116       320
+    23/299     3.15G   0.01912   0.05241  0.007559   0.07909       123       320
+    23/299     3.15G   0.01913   0.05242   0.00754    0.0791       179       320
+    23/299     3.15G   0.01909   0.05258  0.007555   0.07922        94       320
+    23/299     3.15G   0.01911   0.05252  0.007488   0.07912        83       320
+    23/299     3.15G   0.01917   0.05272  0.007519   0.07941        73       320
+    23/299     3.15G   0.01916   0.05296  0.007686   0.07981       119       320
+    23/299     3.15G    0.0191   0.05312  0.007685   0.07991        84       320
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (82535, 6)
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p661/conf/conf_e23.jpg
+    24/299     3.15G   0.01864   0.05093  0.008404   0.07797        74       320
+    24/299     3.15G   0.02013     0.051  0.007655   0.07879        80       320
+    24/299     3.15G   0.01964   0.05232  0.007343   0.07931       153       320
+    24/299     3.15G    0.0188   0.05069  0.007283   0.07677       110       320
+    24/299     3.15G   0.01826   0.05008  0.007371   0.07572        62       320
+    24/299     3.15G   0.01826   0.04937  0.007242   0.07486       108       320
+    24/299     3.15G   0.01825   0.04963  0.007383   0.07527        91       320
+    24/299     3.15G   0.01831   0.04923  0.007185   0.07472        90       320
+    24/299     3.15G   0.01861   0.05002  0.007184   0.07582       150       320
+    24/299     3.15G   0.01839   0.04991  0.007006    0.0753        94       320
+    24/299     3.15G   0.01848   0.05056   0.00736    0.0764       123       320
+    24/299     3.15G   0.01855   0.05024  0.007251   0.07604        77       320
+    24/299     3.15G   0.01849   0.05025  0.007119   0.07586       118       320
+    24/299     3.15G   0.01849   0.05064  0.007053   0.07618       110       320
+    24/299     3.15G   0.01856   0.05063  0.006941   0.07613        64       320
+    24/299     3.15G   0.01859   0.05016  0.006842   0.07559       126       320
+    24/299     3.15G   0.01862    0.0505  0.006752   0.07587       179       320
+    24/299     3.15G   0.01863   0.05068  0.006696     0.076        85       320
+    24/299     3.15G   0.01885   0.05078  0.006688   0.07632        95       320
+    24/299     3.15G   0.01901   0.05086  0.006716   0.07658       106       320
+    24/299     3.15G   0.01905   0.05113  0.006733   0.07692       183       320
+    24/299     3.15G   0.01917   0.05134   0.00669    0.0772        75       320
+    24/299     3.15G   0.01922   0.05108  0.006889   0.07719        85       320
+    24/299     3.15G   0.01917   0.05118   0.00685    0.0772       109       320
+    24/299     3.15G   0.01924    0.0511  0.006934   0.07727       123       320
+    24/299     3.15G   0.01946   0.05132  0.007025    0.0778       109       320
+    24/299     3.15G   0.01943   0.05146  0.006994   0.07788       146       320
+    24/299     3.15G   0.01946   0.05151  0.007149   0.07811        89       320
+    24/299     3.15G   0.01941   0.05163   0.00714   0.07817       105       320
+    24/299     3.15G   0.01932   0.05158  0.007142   0.07805       122       320
+    24/299     3.15G    0.0193   0.05168  0.007221    0.0782       137       320
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (78361, 6)
+runs/train/yolor_p661/conf/conf_e24.jpg
+                 all         514    3.39e+03       0.365       0.376       0.372       0.222
+               Class      Images     Targets           P           R      mAP@.5
+    25/299     3.15G   0.01964   0.04968  0.007639   0.07696       111       320
+    25/299     3.15G   0.01852   0.04998  0.007412   0.07592       122       320
+    25/299     3.15G   0.01888   0.05077  0.007237   0.07689       121       320
+    25/299     3.15G   0.01944   0.05045  0.008595   0.07848        44       320
+    25/299     3.15G   0.01887   0.05015  0.008307   0.07733       117       320
+    25/299     3.15G   0.01899   0.05053  0.008245   0.07776       108       320
+    25/299     3.15G   0.01898   0.05045  0.008422   0.07785        92       320
+    25/299     3.15G   0.01885   0.05001  0.008585   0.07745       143       320
+    25/299     3.15G   0.01883   0.05058  0.008439   0.07785       103       320
+    25/299     3.15G   0.01893   0.05064  0.008208   0.07777        85       320
+    25/299     3.15G   0.01882   0.05045   0.00807   0.07734       149       320
+    25/299     3.15G   0.01865   0.05012  0.007887   0.07666        71       320
+    25/299     3.15G   0.01859   0.05064   0.00774   0.07697       101       320
+    25/299     3.15G    0.0186   0.05056  0.007754   0.07691       138       320
+    25/299     3.15G   0.01857   0.05093   0.00764   0.07715        84       320
+    25/299     3.15G   0.01855   0.05113  0.007595   0.07727       128       320
+    25/299     3.15G   0.01864   0.05116  0.007467   0.07727       157       320
+    25/299     3.15G   0.01871   0.05118  0.007373   0.07727       121       320
+    25/299     3.15G   0.01869   0.05128  0.007299   0.07727        65       320
+    25/299     3.15G   0.01868   0.05146  0.007188   0.07733        45       320
+    25/299     3.15G   0.01874   0.05157  0.007231   0.07754       103       320
+    25/299     3.15G   0.01876   0.05146  0.007182    0.0774       117       320
+    25/299     3.15G   0.01877   0.05157  0.007143   0.07748       125       320
+    25/299     3.15G   0.01868   0.05124  0.007133   0.07704        70       320
+    25/299     3.15G   0.01864   0.05131  0.007128   0.07707       110       320
+    25/299     3.15G   0.01867   0.05155  0.007179   0.07739       111       320
+    25/299     3.15G   0.01864   0.05172  0.007149   0.07752       142       320
+    25/299     3.15G   0.01867   0.05193  0.007118   0.07772       117       320
+    25/299     3.15G   0.01862   0.05184  0.007067   0.07753        83       320
+    25/299     3.15G    0.0186   0.05201  0.007168   0.07777       109       320
+    25/299     3.15G   0.01859   0.05205  0.007165    0.0778        94       320
+    25/299     3.15G   0.01862   0.05248  0.007138   0.07824       138       320
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+pred: (78877, 6)
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p661/conf/conf_e25.jpg
+                 all         514    3.39e+03       0.289       0.432       0.382       0.233
+    26/299     3.15G   0.01911   0.04503  0.006708   0.07085        56       320
+    26/299     3.15G   0.01722   0.05611   0.00697    0.0803       135       320
+    26/299     3.15G    0.0179   0.05606  0.009055   0.08301        82       320
+    26/299     3.15G   0.01817   0.05488  0.008682   0.08173        82       320
+    26/299     3.15G   0.01817   0.05388  0.008806   0.08086       113       320
+    26/299     3.15G   0.01859   0.05271  0.008538   0.07984       108       320
+    26/299     3.15G   0.01856   0.05269  0.008409   0.07966       119       320
+    26/299     3.15G   0.01847   0.05208  0.008099   0.07865       102       320
+    26/299     3.15G   0.01833   0.05214  0.007807   0.07828       102       320
+    26/299     3.15G   0.01816   0.05223  0.007535   0.07793        68       320
+    26/299     3.15G   0.01818   0.05209  0.007582   0.07785        81       320
+    26/299     3.15G   0.01853   0.05198  0.007521   0.07803        71       320
+    26/299     3.15G   0.01858   0.05189  0.007347   0.07781        85       320
+    26/299     3.15G   0.01851    0.0514  0.007181   0.07709        61       320
+    26/299     3.15G   0.01861   0.05142  0.007037   0.07706        92       320
+    26/299     3.15G   0.01881   0.05142  0.007054   0.07728        62       320
+    26/299     3.15G   0.01898   0.05115   0.00708   0.07721       110       320
+    26/299     3.15G   0.01889    0.0511  0.007028   0.07702       134       320
+    26/299     3.15G   0.01885   0.05121  0.007017   0.07708       109       320
+    26/299     3.15G   0.01883   0.05075  0.006941   0.07652        66       320
+    26/299     3.15G    0.0188   0.05076  0.006945    0.0765       115       320
+    26/299     3.15G   0.01881   0.05065  0.006889   0.07635        78       320
+    26/299     3.15G   0.01884   0.05087  0.006912   0.07662       132       320
+    26/299     3.15G   0.01878   0.05085   0.00684   0.07647       165       320
+    26/299     3.15G   0.01883   0.05088  0.006921   0.07662        99       320
+    26/299     3.15G    0.0188   0.05089  0.006887   0.07658       135       320
+    26/299     3.15G   0.01868   0.05097  0.006804   0.07645       152       320
+    26/299     3.15G   0.01867   0.05109  0.006716   0.07648        83       320
+    26/299     3.15G   0.01864   0.05112  0.006693   0.07646       115       320
+    26/299     3.15G   0.01862   0.05129  0.006663   0.07657        82       320
+    26/299     3.15G   0.01854   0.05135  0.006662   0.07655       150       320
+    26/299     3.15G   0.01851   0.05159  0.006661   0.07676        75       320
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (3390, 5)
+  fig = plt.figure(figsize=(12, 9), tight_layout=True)ning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig = plt.figure(figsize=(12, 9), tight_layout=True)ning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+runs/train/yolor_p661/conf/conf_e26.jpg
+                 all         514    3.39e+03       0.371       0.431       0.375       0.237
+    27/299     3.15G   0.01849    0.0402  0.006539   0.06524        80       320 have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+    27/299     3.15G   0.01999   0.04685   0.00704   0.07388        77       320 have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+    27/299     3.15G   0.01961   0.04963  0.007759     0.077        99       320 have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+    27/299     3.15G   0.01846   0.05134  0.006899    0.0767        71       320 have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+    27/299     3.15G   0.01855   0.04977  0.006959   0.07528       119       320 have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).

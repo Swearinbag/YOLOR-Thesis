@@ -1,0 +1,175 @@
+2022-05-20 15:05:49,244 INFO    MainThread:3492623 [internal.py:wandb_internal():93] W&B internal server running at pid: 3492623, started at: 2022-05-20 15:05:49.244179
+2022-05-20 15:05:49,247 INFO    WriterThread:3492623 [datastore.py:open_for_write():75] open: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/run-2ih6qyz7.wandb
+2022-05-20 15:05:49,249 DEBUG   SenderThread:3492623 [sender.py:send():232] send: header
+2022-05-20 15:05:49,250 DEBUG   SenderThread:3492623 [sender.py:send():232] send: run
+2022-05-20 15:05:49,262 INFO    SenderThread:3492623 [sender.py:_maybe_setup_resume():490] checking resume status for None/YOLOR/2ih6qyz7
+2022-05-20 15:05:49,639 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: check_version
+2022-05-20 15:05:49,644 INFO    SenderThread:3492623 [dir_watcher.py:__init__():197] watching files in: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files
+2022-05-20 15:05:49,644 INFO    SenderThread:3492623 [sender.py:_start_run_threads():814] run started: 2ih6qyz7 with start time 1653051948
+2022-05-20 15:05:49,645 DEBUG   SenderThread:3492623 [sender.py:send():232] send: summary
+2022-05-20 15:05:49,645 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-20 15:05:49,646 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: check_version
+2022-05-20 15:05:49,696 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: run_start
+2022-05-20 15:05:49,701 DEBUG   HandlerThread:3492623 [meta.py:__init__():35] meta init
+2022-05-20 15:05:49,701 DEBUG   HandlerThread:3492623 [meta.py:__init__():49] meta init done
+2022-05-20 15:05:49,701 DEBUG   HandlerThread:3492623 [meta.py:probe():209] probe
+2022-05-20 15:05:49,709 DEBUG   HandlerThread:3492623 [meta.py:_setup_git():199] setup git
+2022-05-20 15:05:49,731 DEBUG   HandlerThread:3492623 [meta.py:_setup_git():206] setup git done
+2022-05-20 15:05:49,732 DEBUG   HandlerThread:3492623 [meta.py:_save_pip():53] save pip
+2022-05-20 15:05:49,732 DEBUG   HandlerThread:3492623 [meta.py:_save_pip():67] save pip done
+2022-05-20 15:05:49,732 DEBUG   HandlerThread:3492623 [meta.py:_save_conda():74] save conda
+2022-05-20 15:05:50,647 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/conda-environment.yaml
+2022-05-20 15:05:50,647 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/requirements.txt
+2022-05-20 15:05:50,648 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-summary.json
+2022-05-20 15:05:54,301 DEBUG   HandlerThread:3492623 [meta.py:_save_conda():84] save conda done
+2022-05-20 15:05:54,301 DEBUG   HandlerThread:3492623 [meta.py:probe():247] probe done
+2022-05-20 15:05:54,339 DEBUG   SenderThread:3492623 [sender.py:send():232] send: files
+2022-05-20 15:05:54,339 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-20 15:05:54,347 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-20 15:05:54,347 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: stop_status
+2022-05-20 15:05:54,493 DEBUG   SenderThread:3492623 [sender.py:send():232] send: telemetry
+2022-05-20 15:05:54,646 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/conda-environment.yaml
+2022-05-20 15:05:54,646 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-metadata.json
+2022-05-20 15:05:54,646 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/output.log
+2022-05-20 15:05:54,880 INFO    Thread-11 :3492623 [upload_job.py:push():132] Uploaded file /tmp/tmpqh76oefywandb/1k6o645h-wandb-metadata.json
+2022-05-20 15:05:56,647 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/output.log
+2022-05-20 15:06:00,813 DEBUG   SenderThread:3492623 [sender.py:send():232] send: files
+2022-05-20 15:06:00,813 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file media/images/Labels_0_5e926978fca5f3800196.png with policy now
+2022-05-20 15:06:00,814 DEBUG   SenderThread:3492623 [sender.py:send():232] send: files
+2022-05-20 15:06:00,814 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file media/images/Labels_0_cc136a9a1b544e744328.png with policy now
+2022-05-20 15:06:00,936 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: partial_history
+2022-05-20 15:06:00,937 DEBUG   SenderThread:3492623 [sender.py:send():232] send: history
+2022-05-20 15:06:00,937 DEBUG   SenderThread:3492623 [sender.py:send():232] send: summary
+2022-05-20 15:06:00,939 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-20 15:06:01,550 INFO    Thread-12 :3492623 [upload_job.py:push():132] Uploaded file /tmp/tmpqh76oefywandb/q5miyi5r-media/images/Labels_0_5e926978fca5f3800196.png
+2022-05-20 15:06:01,559 INFO    Thread-13 :3492623 [upload_job.py:push():132] Uploaded file /tmp/tmpqh76oefywandb/3uug31i6-media/images/Labels_0_cc136a9a1b544e744328.png
+2022-05-20 15:06:01,649 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-summary.json
+2022-05-20 15:06:01,649 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/media/images/Labels_0_5e926978fca5f3800196.png
+2022-05-20 15:06:01,649 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/media/images/Labels_0_cc136a9a1b544e744328.png
+2022-05-20 15:06:01,650 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/media/images
+2022-05-20 15:06:01,650 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/media
+2022-05-20 15:06:02,011 DEBUG   SenderThread:3492623 [sender.py:send():232] send: telemetry
+2022-05-20 15:06:02,650 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/output.log
+2022-05-20 15:06:04,427 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:04,427 DEBUG   SenderThread:3492623 [sender.py:send():232] send: exit
+2022-05-20 15:06:04,428 INFO    SenderThread:3492623 [sender.py:send_exit():368] handling exit code: 1
+2022-05-20 15:06:04,428 INFO    SenderThread:3492623 [sender.py:send_exit():370] handling runtime: 14
+2022-05-20 15:06:04,429 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-20 15:06:04,429 INFO    SenderThread:3492623 [sender.py:send_exit():376] send defer
+2022-05-20 15:06:04,430 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:04,431 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,431 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 0
+2022-05-20 15:06:04,432 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,432 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-05-20 15:06:04,432 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 1
+2022-05-20 15:06:04,433 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,433 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 1
+2022-05-20 15:06:04,528 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,528 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-05-20 15:06:04,528 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 2
+2022-05-20 15:06:04,529 DEBUG   SenderThread:3492623 [sender.py:send():232] send: stats
+2022-05-20 15:06:04,529 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,530 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 2
+2022-05-20 15:06:04,530 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,530 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-05-20 15:06:04,530 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 3
+2022-05-20 15:06:04,531 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,531 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 3
+2022-05-20 15:06:04,531 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,531 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-05-20 15:06:04,531 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 4
+2022-05-20 15:06:04,532 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,532 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 4
+2022-05-20 15:06:04,532 DEBUG   SenderThread:3492623 [sender.py:send():232] send: summary
+2022-05-20 15:06:04,533 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:04,533 INFO    SenderThread:3492623 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-20 15:06:04,534 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,534 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-05-20 15:06:04,534 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 5
+2022-05-20 15:06:04,534 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:04,534 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,535 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 5
+2022-05-20 15:06:04,535 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,535 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-05-20 15:06:04,636 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:04,652 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/output.log
+2022-05-20 15:06:04,653 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-summary.json
+2022-05-20 15:06:04,720 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 6
+2022-05-20 15:06:04,720 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:04,721 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:04,721 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 6
+2022-05-20 15:06:04,721 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:04,721 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-05-20 15:06:04,721 INFO    SenderThread:3492623 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-05-20 15:06:04,822 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:05,653 INFO    Thread-7  :3492623 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/config.yaml
+2022-05-20 15:06:05,655 INFO    SenderThread:3492623 [dir_watcher.py:finish():342] scan: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files
+2022-05-20 15:06:05,656 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/requirements.txt requirements.txt
+2022-05-20 15:06:05,656 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/conda-environment.yaml conda-environment.yaml
+2022-05-20 15:06:05,662 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/config.yaml config.yaml
+2022-05-20 15:06:05,666 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-summary.json wandb-summary.json
+2022-05-20 15:06:05,667 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-metadata.json wandb-metadata.json
+2022-05-20 15:06:05,672 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/output.log output.log
+2022-05-20 15:06:05,692 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/media/images/Labels_0_5e926978fca5f3800196.png media/images/Labels_0_5e926978fca5f3800196.png
+2022-05-20 15:06:05,693 INFO    SenderThread:3492623 [dir_watcher.py:finish():356] scan save: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/media/images/Labels_0_cc136a9a1b544e744328.png media/images/Labels_0_cc136a9a1b544e744328.png
+2022-05-20 15:06:05,693 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 7
+2022-05-20 15:06:05,694 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:05,694 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:05,695 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 7
+2022-05-20 15:06:05,695 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:05,695 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-05-20 15:06:05,695 INFO    SenderThread:3492623 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-20 15:06:05,796 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:05,797 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:05,900 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:05,900 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,002 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,003 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,106 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,106 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,203 INFO    Thread-17 :3492623 [upload_job.py:push():132] Uploaded file /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/wandb-summary.json
+2022-05-20 15:06:06,206 INFO    Thread-14 :3492623 [upload_job.py:push():132] Uploaded file /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/requirements.txt
+2022-05-20 15:06:06,209 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,209 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,211 INFO    Thread-16 :3492623 [upload_job.py:push():132] Uploaded file /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/config.yaml
+2022-05-20 15:06:06,231 INFO    Thread-15 :3492623 [upload_job.py:push():132] Uploaded file /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/conda-environment.yaml
+2022-05-20 15:06:06,311 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,312 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,415 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,416 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,439 INFO    Thread-18 :3492623 [upload_job.py:push():132] Uploaded file /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/files/output.log
+2022-05-20 15:06:06,518 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,519 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,622 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:06,622 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:06,644 INFO    Thread-6  :3492623 [sender.py:transition_state():389] send defer: 8
+2022-05-20 15:06:06,645 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:06,645 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 8
+2022-05-20 15:06:06,645 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:06,646 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-05-20 15:06:06,725 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:07,091 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 9
+2022-05-20 15:06:07,092 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:07,093 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:07,093 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 9
+2022-05-20 15:06:07,094 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:07,094 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-05-20 15:06:07,095 INFO    SenderThread:3492623 [sender.py:transition_state():389] send defer: 10
+2022-05-20 15:06:07,096 DEBUG   SenderThread:3492623 [sender.py:send():232] send: final
+2022-05-20 15:06:07,097 DEBUG   SenderThread:3492623 [sender.py:send():232] send: footer
+2022-05-20 15:06:07,097 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: defer
+2022-05-20 15:06:07,098 INFO    HandlerThread:3492623 [handler.py:handle_request_defer():164] handle defer: 10
+2022-05-20 15:06:07,098 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: defer
+2022-05-20 15:06:07,099 INFO    SenderThread:3492623 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-05-20 15:06:07,196 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: poll_exit
+2022-05-20 15:06:07,196 DEBUG   SenderThread:3492623 [sender.py:send_request():246] send_request: poll_exit
+2022-05-20 15:06:07,196 INFO    SenderThread:3492623 [file_pusher.py:join():150] waiting for file pusher
+2022-05-20 15:06:07,604 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: sampled_history
+2022-05-20 15:06:07,606 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: get_summary
+2022-05-20 15:06:07,608 DEBUG   HandlerThread:3492623 [handler.py:handle_request():141] handle_request: shutdown
+2022-05-20 15:06:07,609 INFO    HandlerThread:3492623 [handler.py:finish():806] shutting down handler
+2022-05-20 15:06:08,097 INFO    WriterThread:3492623 [datastore.py:close():279] close: /scratch/WVG/yolor/wandb/run-20220520_150548-2ih6qyz7/run-2ih6qyz7.wandb
+2022-05-20 15:06:08,501 INFO    SenderThread:3492623 [sender.py:finish():1110] shutting down sender
+2022-05-20 15:06:08,502 INFO    SenderThread:3492623 [file_pusher.py:finish():145] shutting down file pusher
+2022-05-20 15:06:08,502 INFO    SenderThread:3492623 [file_pusher.py:join():150] waiting for file pusher
+2022-05-20 15:06:08,507 INFO    MainThread:3492623 [internal.py:handle_exit():80] Internal process exited

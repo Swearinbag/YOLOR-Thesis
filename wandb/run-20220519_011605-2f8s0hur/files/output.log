@@ -1,0 +1,2720 @@
+Scanning images: 100%|████████████████████████| 55/55 [00:00<00:00, 2394.23it/s]
+Scanning labels PCB-upright-25/train/labels.cache3 (55 found, 0 missing, 0 empty, 0 duplicate, for 55 images): 55it [00:00, 4207.92it/s]
+Scanning images: 100%|████████████████████████| 16/16 [00:00<00:00, 2092.05it/s]
+Scanning labels PCB-upright-25/valid/labels.cache3 (16 found, 0 missing, 0 empty, 0 duplicate, for 16 images): 16it [00:00, 5787.74it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p644
+Starting training for 350 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+     0/349     5.64G   0.06386   0.06571   0.03005    0.1596       452       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+     1/349      6.4G   0.06497   0.06305   0.03004    0.1581       324       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+     2/349      6.4G   0.06386   0.06187   0.02975    0.1555       424       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     3/349      6.4G   0.06422   0.06168   0.03012     0.156       248       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     4/349     6.39G   0.06292   0.05876   0.02858    0.1503       646       640
+targ: (912, 5)
+pred: (4800, 6)
+     4/349     6.39G   0.06307   0.06044   0.02845     0.152       491       640
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     5/349     6.39G   0.06203   0.06167   0.02869    0.1524       609       640
+targ: (912, 5)
+pred: (4800, 6)
+     5/349     6.39G   0.06232   0.06178    0.0283    0.1524       354       640
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+     6/349     6.39G   0.06269   0.06132    0.0288    0.1528       595       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e6.jpg
+     6/349     6.39G   0.06259   0.05832   0.02906      0.15       389       640
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     7/349     6.39G   0.05882   0.07568   0.02775    0.1622       523       640
+targ: (912, 5)
+pred: (4800, 6)
+     7/349     6.39G   0.05877   0.07192   0.02752    0.1582       550       640
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     8/349     6.39G   0.06112   0.05587   0.02852    0.1455       359       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e8.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     9/349     6.39G    0.0585   0.06734   0.02694    0.1528       284       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e9.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+    10/349     6.39G   0.05892   0.06735   0.02605    0.1523       348       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e10.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    11/349     6.39G   0.05841   0.06673   0.02578    0.1509       509       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4647, 6)
+runs/train/yolor_p644/conf/conf_e11.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+    12/349     6.39G   0.05839   0.06391   0.02583    0.1481       623       640
+targ: (912, 5)
+pred: (4715, 6)
+runs/train/yolor_p644/conf/conf_e12.jpg
+    12/349     6.39G   0.05849   0.06378   0.02565    0.1479       226       640
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    13/349     6.39G   0.05749   0.06639   0.02587    0.1498       535       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4019, 6)
+runs/train/yolor_p644/conf/conf_e13.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+    14/349     6.39G    0.0569   0.07153   0.02651    0.1549       341       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4169, 6)
+runs/train/yolor_p644/conf/conf_e14.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    15/349     6.39G   0.05879   0.05663   0.02529    0.1407       291       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4031, 6)
+runs/train/yolor_p644/conf/conf_e15.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    16/349     6.39G   0.05754    0.0739   0.02406    0.1555       501       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (3951, 6)
+runs/train/yolor_p644/conf/conf_e16.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+    17/349     6.39G   0.05661   0.06571   0.02503    0.1474       231       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (3962, 6)
+runs/train/yolor_p644/conf/conf_e17.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    18/349     6.39G   0.05809   0.06405   0.02517    0.1473       371       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4021, 6)
+runs/train/yolor_p644/conf/conf_e18.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    19/349     6.39G   0.05643   0.07392   0.02402    0.1544       279       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (3973, 6)
+runs/train/yolor_p644/conf/conf_e19.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    20/349     6.39G   0.05675   0.07325   0.02344    0.1534       481       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4043, 6)
+runs/train/yolor_p644/conf/conf_e20.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    21/349     6.39G   0.05568   0.07067   0.02404    0.1504       498       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4025, 6)
+runs/train/yolor_p644/conf/conf_e21.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+    22/349     6.39G   0.06303   0.06305   0.02698    0.1531       374       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4111, 6)
+runs/train/yolor_p644/conf/conf_e22.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (3969, 6)
+runs/train/yolor_p644/conf/conf_e23.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    24/349     6.39G   0.05499   0.06692   0.02361    0.1455       553       640
+               Class      Images     Targets           P           R      mAP@.5
+    24/349     6.39G   0.05499   0.06692   0.02361    0.1455       553       640
+targ: (912, 5)
+pred: (4110, 6)
+runs/train/yolor_p644/conf/conf_e24.jpg
+                 all          16           0           0           0           0           0
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+    25/349     6.39G   0.05542   0.06524   0.02458    0.1452       766       640
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4015, 6)
+runs/train/yolor_p644/conf/conf_e25.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4188, 6)
+runs/train/yolor_p644/conf/conf_e26.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4388, 6)
+runs/train/yolor_p644/conf/conf_e27.jpg
+                 all          16           0           0           0           0           0
+    28/349     6.39G   0.05611   0.06657   0.02267    0.1454       482       640
+    28/349     6.39G   0.05717   0.06582   0.02335    0.1463       336       640
+    28/349     6.39G   0.05717   0.06582   0.02335    0.1463       336       640
+targ: (912, 5)
+pred: (4508, 6)
+runs/train/yolor_p644/conf/conf_e28.jpg
+                 all          16           0           0           0           0           0
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4533, 6)
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+runs/train/yolor_p644/conf/conf_e29.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4599, 6)
+runs/train/yolor_p644/conf/conf_e30.jpg
+                 all          16           0           0           0           0           0
+    31/349     6.39G   0.05316   0.08257   0.02364    0.1594       663       640
+    31/349     6.39G   0.05396   0.07592    0.0226    0.1525       676       640
+    31/349     6.39G   0.05396   0.07592    0.0226    0.1525       676       640
+targ: (912, 5)
+pred: (4650, 6)
+runs/train/yolor_p644/conf/conf_e31.jpg
+                 all          16           0           0           0           0           0
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4669, 6)
+runs/train/yolor_p644/conf/conf_e32.jpg
+                 all          16           0           0           0           0           0
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4744, 6)
+runs/train/yolor_p644/conf/conf_e33.jpg
+                 all          16           0           0           0           0           0
+    34/349     6.39G   0.06366   0.06416   0.02453    0.1524       551       640
+    34/349     6.39G   0.06366   0.06416   0.02453    0.1524       551       640
+targ: (912, 5)
+    34/349     6.39G   0.06168   0.06605   0.02351    0.1512       489       640
+    34/349     6.39G   0.06168   0.06605   0.02351    0.1512       489       640
+runs/train/yolor_p644/conf/conf_e34.jpg
+                 all          16         912           0           0    0.000197    1.97e-05
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e35.jpg
+                 all          16         912           0           0    6.03e-05    6.03e-06
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e36.jpg
+    37/349     6.39G   0.05557   0.06034   0.02158    0.1375       640       640
+    37/349     6.39G   0.05393   0.06467   0.02193    0.1405       315       640
+    37/349     6.39G   0.05393   0.06467   0.02193    0.1405       315       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e37.jpg
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e38.jpg
+                 all          16         912           0           0     0.00026    3.14e-05
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e39.jpg
+                 all          16         912           0           0    0.000406    6.25e-05
+    40/349     6.39G   0.05279   0.07162   0.02139    0.1458       505       640
+    40/349     6.39G   0.05342   0.06977   0.02125    0.1444       528       640
+    40/349     6.39G   0.05342   0.06977   0.02125    0.1444       528       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e40.jpg
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e41.jpg
+                 all          16         912           0           0    0.000211    3.16e-05
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e42.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+    43/349     6.39G   0.05396    0.0745   0.02041    0.1489       784       640
+    43/349     6.39G   0.05374    0.0695    0.0206    0.1438       349       640
+    43/349     6.39G   0.05374    0.0695    0.0206    0.1438       349       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e43.jpg
+                 all          16         912           0           0    0.000499      0.0001
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e44.jpg
+                 all          16         912           0           0      0.0008    0.000119
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e45.jpg
+                 all          16         912           0           0    0.000577     8.1e-05
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+    46/349     6.39G    0.0531   0.06957   0.02032     0.143       717       640
+    46/349     6.39G    0.0531   0.06957   0.02032     0.143       717       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e46.jpg
+    46/349     6.39G   0.05409   0.06549   0.02005    0.1396       297       640
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e47.jpg
+                 all          16         912           0           0    0.000499    0.000106
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    49/349     6.39G   0.05418   0.04935   0.01866    0.1222       479       640
+    49/349     6.39G   0.05322   0.05867   0.01957    0.1315       815       640
+    49/349     6.39G   0.05405   0.05289   0.01959    0.1265       366       640
+    49/349     6.39G   0.05405   0.05289   0.01959    0.1265       366       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e49.jpg
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e50.jpg
+                 all          16         912           0           0    0.000356    4.59e-05
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e51.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+    52/349     6.39G   0.05644   0.03849   0.01844    0.1134       675       640
+    52/349     6.39G   0.05279   0.06251   0.01915    0.1344       418       640
+    52/349     6.39G   0.05279   0.06251   0.01915    0.1344       418       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e52.jpg
+                 all          16         912           0           0    0.000704    0.000141
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e53.jpg
+    53/349     6.39G   0.05178   0.05682   0.01848    0.1271       383       640
+    53/349     6.39G   0.05178   0.05682   0.01848    0.1271       383       640
+New overall best!
+    53/349     6.39G   0.05178   0.05682   0.01848    0.1271       383       640
+targ: (912, 5)
+pred: (4800, 6)
+    54/349     6.39G     0.053   0.05623   0.02013    0.1294       274       640
+    54/349     6.39G     0.053   0.05623   0.02013    0.1294       274       640
+                 all          16         912     0.00977    0.000426     0.00189    0.000416
+New overall best!
+    54/349     6.39G     0.053   0.05623   0.02013    0.1294       274       640
+targ: (912, 5)
+pred: (4800, 6)
+    55/349     6.39G   0.05323   0.05382   0.01812    0.1252       430       640
+    55/349     6.39G   0.05323   0.05382   0.01812    0.1252       430       640
+                 all          16         912           0           0     0.00231    0.000383
+New overall best!
+    56/349     6.39G   0.05036   0.06544   0.01987    0.1357       468       640
+    56/349     6.39G   0.05036   0.06544   0.01987    0.1357       468       640
+targ: (912, 5)
+pred: (4800, 6)
+    56/349     6.39G   0.05036   0.06544   0.01987    0.1357       468       640
+runs/train/yolor_p644/conf/conf_e56.jpg
+    57/349     6.39G   0.08566   0.05963   0.03366     0.179       449       640
+    57/349     6.39G   0.06976   0.05506   0.02676    0.1516       542       640
+    57/349     6.39G   0.05972   0.05382    0.0207    0.1342       397       640
+    57/349     6.39G   0.05972   0.05382    0.0207    0.1342       397       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e57.jpg
+                 all          16         912           0           0     0.00218    0.000543
+New overall best!
+    58/349     6.39G   0.05093   0.05162   0.01957    0.1221       663       640
+    58/349     6.39G   0.05083   0.05794   0.01937    0.1281       347       640
+    58/349     6.39G   0.05083   0.05794   0.01937    0.1281       347       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e58.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+    59/349     6.39G   0.05033   0.04844   0.01812    0.1169       543       640
+    59/349     6.39G   0.05033   0.04844   0.01812    0.1169       543       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e59.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+    60/349     6.39G   0.05161   0.05301   0.01851    0.1231       295       640
+    60/349     6.39G   0.05161   0.05301   0.01851    0.1231       295       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e60.jpg
+                 all          16         912     0.00614     0.00345     0.00296    0.000649
+    61/349     6.39G   0.05125   0.05932   0.01773    0.1283       764       640
+    61/349     6.39G   0.05179   0.05669   0.01798    0.1265       412       640
+    61/349     6.39G   0.05179   0.05669   0.01798    0.1265       412       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e61.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    62/349     6.39G   0.05192   0.04914   0.01921    0.1203       572       640
+    62/349     6.39G   0.05102   0.05416   0.01835    0.1235       435       640
+    62/349     6.39G   0.05102   0.05416   0.01835    0.1235       435       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e62.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+    63/349     6.39G   0.05019    0.0627   0.01852    0.1314       432       640
+    63/349     6.39G   0.05019    0.0627   0.01852    0.1314       432       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e63.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    64/349     6.39G   0.05158   0.06462   0.01792    0.1341       800       640
+    64/349     6.39G   0.05174   0.06297   0.01812    0.1328       733       640
+    64/349     6.39G   0.05191   0.06573    0.0181    0.1357       383       640
+    64/349     6.39G   0.05191   0.06573    0.0181    0.1357       383       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e64.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+    65/349     6.39G    0.0504   0.05326   0.01883    0.1225       445       640
+    65/349     6.39G    0.0504   0.05326   0.01883    0.1225       445       640
+                 all          16         912     0.00855     0.00599     0.00451    0.000994
+    66/349     6.39G   0.05116   0.05056   0.01959    0.1213       430       640
+    66/349     6.39G   0.05083    0.0638   0.01908    0.1337       986       640
+    66/349     6.39G   0.04998   0.06382   0.01891    0.1327       433       640
+    66/349     6.39G   0.04998   0.06382   0.01891    0.1327       433       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e66.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+    67/349     6.39G   0.04897    0.0493   0.01993    0.1182       433       640
+    67/349     6.39G   0.04897    0.0493   0.01993    0.1182       433       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0116      0.0154     0.00632     0.00163
+    68/349     6.39G   0.04853   0.05182   0.01804    0.1184       692       640
+    68/349     6.39G   0.04913   0.04897   0.01841    0.1165       847       640
+    68/349     6.39G   0.04985   0.04615   0.01955    0.1156       249       640
+    68/349     6.39G   0.04985   0.04615   0.01955    0.1156       249       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e68.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+    69/349     6.39G   0.04996   0.06071   0.01743    0.1281       814       640
+    69/349     6.39G    0.0498   0.05573   0.01862    0.1242       489       640
+    69/349     6.39G    0.0498   0.05573   0.01862    0.1242       489       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e69.jpg
+    69/349     6.39G    0.0498   0.05573   0.01862    0.1242       489       640
+    70/349     6.39G   0.04712   0.05189    0.0146    0.1136       645       640
+    70/349     6.39G    0.0473   0.05888   0.01709    0.1233       629       640
+    70/349     6.39G   0.04902   0.05484   0.01808    0.1219       412       640
+    70/349     6.39G   0.04902   0.05484   0.01808    0.1219       412       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e70.jpg
+    70/349     6.39G   0.04902   0.05484   0.01808    0.1219       412       640
+    71/349     6.39G   0.08496    0.0488   0.03313    0.1669       669       640
+    71/349     6.39G   0.06588   0.05186   0.02581    0.1435       579       640
+    71/349     6.39G   0.05517   0.05391   0.02044    0.1295       282       640
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e71.jpg
+    72/349     6.39G   0.04891   0.05852   0.02035    0.1278       656       640
+    72/349     6.39G   0.04853   0.06222   0.01862    0.1294      1020       640
+    72/349     6.39G   0.04815   0.06296   0.01889      0.13       340       640
+    72/349     6.39G   0.04815   0.06296   0.01889      0.13       340       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e72.jpg
+                 all          16         912      0.0054       0.014     0.00473     0.00157
+    73/349     6.39G    0.0502    0.0467   0.01606     0.113       951       640
+    73/349     6.39G   0.05069   0.05374   0.01678    0.1212       775       640
+    73/349     6.39G   0.05017   0.05268   0.01668    0.1195       683       640
+    73/349     6.39G   0.05017   0.05268   0.01668    0.1195       683       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e73.jpg
+    73/349     6.39G   0.04967   0.05179    0.0167    0.1182       627       640
+    73/349     6.39G   0.04967   0.05179    0.0167    0.1182       627       640
+New overall best!
+    74/349     6.39G   0.04882   0.05804   0.01544    0.1223       687       640
+    74/349     6.39G   0.04788   0.06238   0.01646    0.1267       562       640
+    74/349     6.39G   0.04788   0.06238   0.01646    0.1267       562       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e74.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    75/349     6.39G   0.04753   0.04616   0.01769    0.1114       616       640
+    75/349     6.39G   0.04842   0.05576   0.01807    0.1223       586       640
+    75/349     6.39G   0.04878    0.0546   0.01737    0.1208       487       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e75.jpg
+                 all          16         912      0.0078      0.0266     0.00581     0.00143
+    76/349     6.39G   0.04916   0.04965   0.01647    0.1153       695       640
+    76/349     6.39G   0.04946   0.05541    0.0167    0.1216       590       640
+    76/349     6.39G   0.04946   0.05541    0.0167    0.1216       590       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e76.jpg
+                 all          16         912      0.0347      0.0138      0.0102      0.0025
+New overall best!
+    77/349     6.39G   0.04655    0.0565    0.0172    0.1202       556       640
+    77/349     6.39G   0.04655    0.0565    0.0172    0.1202       556       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e77.jpg
+                 all          16         912      0.0266      0.0229      0.0115      0.0026
+New overall best!
+    78/349     6.39G   0.04694   0.05088   0.01707    0.1149       596       640
+    78/349     6.39G   0.04694   0.05088   0.01707    0.1149       596       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e78.jpg
+    78/349     6.39G   0.04694   0.05088   0.01707    0.1149       596       640
+    79/349     6.39G   0.04834   0.06159   0.01744    0.1274       616       640
+    79/349     6.39G   0.04745   0.05991   0.01722    0.1246       755       640
+    79/349     6.39G   0.04745   0.05991   0.01722    0.1246       755       640
+targ: (912, 5)
+    79/349     6.39G   0.04688   0.06602   0.01694    0.1298       538       640
+    79/349     6.39G   0.04688   0.06602   0.01694    0.1298       538       640
+runs/train/yolor_p644/conf/conf_e79.jpg
+                 all          16         912      0.0108      0.0246     0.00865     0.00267
+    80/349     6.39G   0.06113   0.05439   0.01986    0.1354       578       640
+    80/349     6.39G   0.05762   0.05442   0.01918    0.1312       509       640
+    80/349     6.39G   0.05601   0.05749   0.01921    0.1327       573       640
+    80/349     6.39G   0.05601   0.05749   0.01921    0.1327       573       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e80.jpg
+    80/349     6.39G   0.05601   0.05749   0.01921    0.1327       573       640
+    81/349     6.39G   0.05131   0.05644   0.01658    0.1243       725       640
+    81/349     6.39G   0.05128   0.05334   0.01581    0.1204       660       640
+    81/349     6.39G   0.04987   0.05492   0.01681    0.1216       351       640
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e81.jpg
+    82/349     6.39G   0.07973   0.04228   0.03141    0.1534       495       640
+    82/349     6.39G    0.0623   0.05987   0.02428    0.1465       543       640
+    82/349     6.39G   0.05422   0.05526   0.02014    0.1296       581       640
+    82/349     6.39G   0.05422   0.05526   0.02014    0.1296       581       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e82.jpg
+    82/349     6.39G   0.05353    0.0553   0.01871    0.1275       400       640
+    82/349     6.39G   0.05353    0.0553   0.01871    0.1275       400       640
+    83/349     6.39G   0.04754   0.04556   0.01423    0.1073       458       640
+    83/349     6.39G   0.04894   0.04514   0.01733    0.1114       573       640
+    83/349     6.39G   0.04894   0.04514   0.01733    0.1114       573       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e83.jpg
+    83/349     6.39G   0.04807   0.05614   0.01725    0.1215       629       640
+    83/349     6.39G   0.04807   0.05614   0.01725    0.1215       629       640
+    84/349     6.39G   0.04578   0.06723   0.01713    0.1301       647       640
+    84/349     6.39G    0.0453   0.06264   0.01614    0.1241       715       640
+    84/349     6.39G   0.04604   0.05823   0.01686    0.1211       619       640
+    84/349     6.39G   0.04604   0.05823   0.01686    0.1211       619       640
+targ: (912, 5)
+pred: (4800, 6)
+    84/349     6.39G   0.04738   0.05796   0.01703    0.1224       464       640
+    84/349     6.39G   0.04738   0.05796   0.01703    0.1224       464       640
+                 all          16         912      0.0067      0.0238      0.0059     0.00169
+    85/349     6.39G   0.04889   0.06661   0.01687    0.1324       941       640
+    85/349     6.39G   0.04719   0.05984   0.01703    0.1241       920       640
+    85/349     6.39G   0.04721   0.05765   0.01639    0.1213       430       640
+    85/349     6.39G   0.04721   0.05765   0.01639    0.1213       430       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e85.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    86/349     6.39G   0.04774   0.05974   0.01575    0.1232       780       640
+    86/349     6.39G    0.0464   0.06434   0.01606    0.1268       702       640
+    86/349     6.39G    0.0464   0.06434   0.01606    0.1268       702       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e86.jpg
+    86/349     6.39G   0.04629   0.06332   0.01563    0.1252       514       640
+    86/349     6.39G   0.04629   0.06332   0.01563    0.1252       514       640
+New overall best!
+    87/349     6.39G   0.05132    0.0567   0.01884    0.1269       310       640
+    87/349     6.39G   0.05132    0.0567   0.01884    0.1269       310       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e87.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    88/349     6.39G   0.05186   0.03915   0.02128    0.1123       657       640
+    88/349     6.39G   0.04741   0.05156   0.01734    0.1163       680       640
+    88/349     6.39G   0.04741   0.05156   0.01734    0.1163       680       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e88.jpg
+    88/349     6.39G   0.04772   0.05591   0.01689    0.1205       492       640
+    88/349     6.39G   0.04772   0.05591   0.01689    0.1205       492       640
+New overall best!
+    89/349     6.39G   0.04777   0.05893   0.01591    0.1226       501       640
+    89/349     6.39G   0.04777   0.05893   0.01591    0.1226       501       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e89.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+    90/349     6.39G   0.04575   0.06241   0.01722    0.1254       425       640
+    90/349     6.39G   0.04575   0.06241   0.01722    0.1254       425       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e90.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+    91/349     6.39G   0.04809   0.05822   0.01972     0.126       524       640
+    91/349     6.39G   0.04519   0.05232   0.01692    0.1144       545       640
+    91/349     6.39G   0.04519   0.05232   0.01692    0.1144       545       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e91.jpg
+    91/349     6.39G   0.04429   0.05588   0.01705    0.1172       439       640
+    91/349     6.39G   0.04429   0.05588   0.01705    0.1172       439       640
+New overall best!
+    92/349     6.39G   0.04711   0.05566   0.01767    0.1204       825       640
+    92/349     6.39G    0.0464   0.06515   0.01744     0.129       454       640
+    92/349     6.39G    0.0464   0.06515   0.01744     0.129       454       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e92.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+               Class      Images     Targets           P           R      mAP@.5
+    93/349     6.39G   0.04446   0.06689   0.01567     0.127       586       640
+    93/349     6.39G   0.04446   0.06689   0.01567     0.127       586       640
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e93.jpg
+                 all          16         912      0.0164      0.0333      0.0165     0.00447
+    94/349     6.39G   0.04646   0.04643   0.01891    0.1118       546       640
+    94/349     6.39G   0.04646   0.04643   0.01891    0.1118       546       640
+targ: (912, 5)
+    94/349     6.39G   0.04644   0.05213   0.01708    0.1157       481       640
+    94/349     6.39G   0.04644   0.05213   0.01708    0.1157       481       640
+runs/train/yolor_p644/conf/conf_e94.jpg
+                 all          16         912      0.0635     0.00772      0.0208      0.0059
+New overall best!
+    95/349     6.39G    0.0453    0.0609     0.017    0.1232       351       640
+    95/349     6.39G    0.0453    0.0609     0.017    0.1232       351       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e95.jpg
+                 all          16         912      0.0194      0.0185      0.0174     0.00468
+    95/349     6.39G    0.0453    0.0609     0.017    0.1232       351       640
+    96/349     6.39G   0.04598   0.05391   0.01819    0.1181       397       640
+    96/349     6.39G     0.046   0.05496   0.01728    0.1182       860       640
+    96/349     6.39G     0.046   0.05496   0.01728    0.1182       860       640
+targ: (912, 5)
+pred: (4800, 6)
+    96/349     6.39G   0.04589   0.05739   0.01718    0.1205       403       640
+    96/349     6.39G   0.04589   0.05739   0.01718    0.1205       403       640
+                 all          16         912      0.0251      0.0253      0.0208      0.0062
+New overall best!
+    96/349     6.39G   0.04589   0.05739   0.01718    0.1205       403       640
+targ: (912, 5)
+pred: (4800, 6)
+    97/349     6.39G   0.04551   0.05683   0.01683    0.1192       408       640
+    97/349     6.39G   0.04551   0.05683   0.01683    0.1192       408       640
+                 all          16         912      0.0292      0.0264      0.0244     0.00703
+New overall best!
+    97/349     6.39G   0.04551   0.05683   0.01683    0.1192       408       640
+targ: (912, 5)
+    98/349     6.39G   0.04571   0.05015   0.01648    0.1123       550       640
+    98/349     6.39G   0.04571   0.05015   0.01648    0.1123       550       640
+runs/train/yolor_p644/conf/conf_e98.jpg
+                 all          16         912      0.0212     0.00964      0.0142     0.00425
+    99/349     6.39G    0.0453   0.06198   0.01681    0.1241       627       640
+    99/349     6.39G   0.04617   0.06752   0.01641    0.1301       683       640
+    99/349     6.39G   0.04617   0.06752   0.01641    0.1301       683       640
+targ: (912, 5)
+pred: (4800, 6)
+    99/349     6.39G   0.04528   0.06227   0.01753    0.1251       296       640
+    99/349     6.39G   0.04528   0.06227   0.01753    0.1251       296       640
+                 all          16         912      0.0359      0.0267       0.025     0.00724
+New overall best!
+   100/349     6.39G   0.04438   0.05159   0.01711    0.1131       811       640
+   100/349     6.39G   0.04375   0.05988   0.01722    0.1208       569       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e100.jpg
+                 all          16         912      0.0253      0.0538      0.0277     0.00739
+New overall best!
+   101/349     6.39G   0.04317   0.06113   0.01905    0.1233       428       640
+   101/349     6.39G   0.04317   0.06113   0.01905    0.1233       428       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e101.jpg
+                 all          16         912      0.0184      0.0446      0.0243     0.00751
+   102/349     6.39G   0.04167   0.05217   0.01638    0.1102       604       640
+   102/349     6.39G   0.04149   0.05448    0.0159    0.1119       549       640
+   102/349     6.39G   0.04149   0.05448    0.0159    0.1119       549       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e102.jpg
+                 all          16         912      0.0337      0.0294      0.0245     0.00734
+   103/349     6.39G   0.04252   0.05591   0.01693    0.1154       674       640
+   103/349     6.39G   0.04225   0.05828   0.01659    0.1171       408       640
+   103/349     6.39G   0.04225   0.05828   0.01659    0.1171       408       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e103.jpg
+                 all          16         912      0.0185      0.0595      0.0288     0.00907
+New overall best!
+   104/349     6.39G   0.04397   0.05076    0.0155    0.1102       694       640
+   104/349     6.39G   0.04467   0.04795   0.01516    0.1078       366       640
+   104/349     6.39G   0.04467   0.04795   0.01516    0.1078       366       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e104.jpg
+                 all          16         912       0.042      0.0316      0.0241     0.00655
+   105/349     6.39G    0.0438   0.05656   0.01555    0.1159       593       640
+   105/349     6.39G    0.0438   0.05656   0.01555    0.1159       593       640
+targ: (912, 5)
+pred: (4800, 6)
+   105/349     6.39G   0.04446   0.05467   0.01486     0.114       372       640
+   105/349     6.39G   0.04446   0.05467   0.01486     0.114       372       640
+                 all          16         912      0.0233      0.0191      0.0182     0.00523
+   106/349     6.39G   0.04453   0.05403   0.01708    0.1156       687       640
+   106/349     6.39G   0.04453   0.05403   0.01708    0.1156       687       640
+targ: (912, 5)
+   106/349     6.39G   0.04404   0.05301   0.01711    0.1142       420       640
+   106/349     6.39G   0.04404   0.05301   0.01711    0.1142       420       640
+runs/train/yolor_p644/conf/conf_e106.jpg
+                 all          16         912      0.0256      0.0415      0.0258     0.00745
+   107/349     6.39G   0.04217   0.04408   0.01605    0.1023       698       640
+   107/349     6.39G   0.04159   0.05888   0.01618    0.1166       405       640
+   107/349     6.39G   0.04159   0.05888   0.01618    0.1166       405       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e107.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   108/349     6.39G    0.0391   0.05714   0.01671    0.1129       616       640
+   108/349     6.39G    0.0391   0.05714   0.01671    0.1129       616       640
+targ: (912, 5)
+pred: (4800, 6)
+   108/349     6.39G   0.03922   0.05582   0.01657    0.1116       342       640
+   108/349     6.39G   0.03922   0.05582   0.01657    0.1116       342       640
+                 all          16         912      0.0228      0.0687      0.0303     0.00902
+New overall best!
+   109/349     6.39G   0.04166   0.05798   0.01796    0.1176       456       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e109.jpg
+                 all          16         912      0.0265      0.0523      0.0296     0.00934
+New overall best!
+   110/349     6.39G   0.04089   0.05914   0.01707    0.1171       447       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e110.jpg
+                 all          16         912       0.019      0.0599      0.0273     0.00765
+   111/349     6.39G    0.0396   0.04048   0.01769   0.09777       702       640
+   111/349     6.39G   0.03938   0.05099   0.01462     0.105       551       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e111.jpg
+                 all          16         912      0.0258      0.0443       0.026     0.00693
+   112/349     6.39G   0.04466   0.04815   0.01721      0.11       452       640
+   112/349     6.39G   0.04397   0.05288   0.01632    0.1132       574       640
+   112/349     6.39G   0.04397   0.05288   0.01632    0.1132       574       640
+targ: (912, 5)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p644/conf/conf_e112.jpg
+                 all          16         912      0.0284      0.0346      0.0314     0.00838
+   113/349     6.39G   0.04214   0.05171   0.01406    0.1079       450       640
+   113/349     6.39G   0.04157   0.05466   0.01601    0.1122       419       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e113.jpg
+                 all          16         912      0.0256      0.0568      0.0299     0.00837
+   114/349     6.39G   0.03718   0.05294   0.01659    0.1067       622       640
+   114/349     6.39G    0.0381   0.05543   0.01709    0.1106       455       640
+   114/349     6.39G    0.0381   0.05543   0.01709    0.1106       455       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e114.jpg
+                 all          16         912      0.0234      0.0459      0.0318     0.00816
+   115/349     6.39G   0.04141   0.05392   0.01758    0.1129       652       640
+   115/349     6.39G   0.04075    0.0576   0.01689    0.1152       368       640
+   115/349     6.39G   0.04075    0.0576   0.01689    0.1152       368       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e115.jpg
+                 all          16         912      0.0331      0.0353      0.0333      0.0102
+New overall best!
+   116/349     6.39G   0.03659   0.05393   0.01618    0.1067       462       640
+   116/349     6.39G   0.03713   0.05779   0.01662    0.1115       467       640
+   116/349     6.39G   0.03713   0.05779   0.01662    0.1115       467       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e116.jpg
+                 all          16         912      0.0181      0.0693      0.0306     0.00858
+   117/349     6.39G   0.04299   0.05452   0.01292    0.1104       747       640
+   117/349     6.39G   0.04276   0.05446   0.01425    0.1115       577       640
+   117/349     6.39G   0.04476   0.04976   0.01408    0.1086       394       640
+   117/349     6.39G   0.04476   0.04976   0.01408    0.1086       394       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e117.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   118/349     6.39G   0.04692   0.05945   0.01787    0.1242       805       640
+   118/349     6.39G   0.04709   0.06251   0.01794    0.1275       676       640
+   118/349     6.39G   0.04645   0.05759   0.01752    0.1216       215       640
+   118/349     6.39G   0.04645   0.05759   0.01752    0.1216       215       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e118.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   119/349     6.39G   0.04447   0.07224   0.01477    0.1315       863       640
+   119/349     6.39G    0.0444   0.06217   0.01701    0.1236       317       640
+   119/349     6.39G    0.0444   0.06217   0.01701    0.1236       317       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e119.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   120/349     6.39G   0.04509   0.04422   0.01712    0.1064       614       640
+   120/349     6.39G   0.04174   0.05553   0.01806    0.1153       562       640
+   120/349     6.39G   0.04174   0.05553   0.01806    0.1153       562       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e120.jpg
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+   121/349     6.39G      0.04   0.04924   0.01509    0.1043       423       640
+   121/349     6.39G      0.04   0.04924   0.01509    0.1043       423       640
+targ: (912, 5)
+   121/349     6.39G   0.03989   0.05435   0.01507    0.1093       602       640
+   121/349     6.39G   0.03989   0.05435   0.01507    0.1093       602       640
+runs/train/yolor_p644/conf/conf_e121.jpg
+                 all          16         912      0.0506      0.0224      0.0303     0.00906
+   122/349     6.39G   0.03936   0.03808   0.01657   0.09401       553       640
+   122/349     6.39G   0.04083    0.0441   0.01607     0.101       796       640
+   122/349     6.39G   0.04101   0.05126   0.01598    0.1082       803       640
+   122/349     6.39G   0.04158   0.05118   0.01505    0.1078       388       640
+   122/349     6.39G   0.04158   0.05118   0.01505    0.1078       388       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e122.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   123/349     6.39G   0.04069    0.0543   0.01746    0.1124       613       640
+   123/349     6.39G   0.03909   0.05812   0.01629    0.1135       405       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e123.jpg
+                 all          16         912      0.0372      0.0393      0.0309     0.00935
+   124/349     6.39G   0.03732   0.05907   0.01825    0.1146       612       640
+   124/349     6.39G   0.03695   0.05978    0.0165    0.1132       649       640
+   124/349     6.39G   0.03653   0.05557   0.01718    0.1093       245       640
+   124/349     6.39G   0.03653   0.05557   0.01718    0.1093       245       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e124.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+   125/349     6.39G   0.04136   0.04849   0.01562    0.1055       290       640
+   125/349     6.39G   0.04136   0.04849   0.01562    0.1055       290       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e125.jpg
+                 all          16         912      0.0344      0.0493      0.0353      0.0122
+New overall best!
+   126/349     6.39G   0.04097    0.0629   0.01874    0.1226       623       640
+   126/349     6.39G   0.04047   0.05748   0.01775    0.1157       406       640
+   126/349     6.39G   0.04047   0.05748   0.01775    0.1157       406       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e126.jpg
+   126/349     6.39G   0.04047   0.05748   0.01775    0.1157       406       640
+   127/349     6.39G   0.03595   0.05099   0.01521    0.1021       518       640
+   127/349     6.39G   0.03705   0.05114    0.0149    0.1031       400       640
+   127/349     6.39G   0.03705   0.05114    0.0149    0.1031       400       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e127.jpg
+   127/349     6.39G   0.03705   0.05114    0.0149    0.1031       400       640
+   128/349     6.39G   0.03832   0.07016   0.01466    0.1231       936       640
+   128/349     6.39G    0.0378   0.06707   0.01487    0.1197       628       640
+   128/349     6.39G    0.0378   0.06707   0.01487    0.1197       628       640
+targ: (912, 5)
+pred: (4800, 6)
+   128/349     6.39G   0.03913   0.06637   0.01475    0.1202       467       640
+   128/349     6.39G   0.03913   0.06637   0.01475    0.1202       467       640
+                 all          16         912      0.0177      0.0824      0.0295     0.00698
+   129/349     6.39G   0.03841   0.04998   0.02372    0.1121       501       640
+   129/349     6.39G   0.03712   0.06815   0.01902    0.1243       756       640
+   129/349     6.39G   0.03834   0.06606    0.0182    0.1226       738       640
+   129/349     6.39G   0.03834   0.06606    0.0182    0.1226       738       640
+targ: (912, 5)
+   129/349     6.39G   0.03817   0.06618   0.01821    0.1226       473       640
+   129/349     6.39G   0.03817   0.06618   0.01821    0.1226       473       640
+runs/train/yolor_p644/conf/conf_e129.jpg
+                 all          16         912      0.0273      0.0822      0.0353      0.0103
+   130/349     6.39G   0.03973   0.05541    0.0173    0.1124       752       640
+   130/349     6.39G   0.03943   0.05475   0.01725    0.1114       696       640
+   130/349     6.39G   0.03943   0.05475   0.01725    0.1114       696       640
+targ: (912, 5)
+pred: (4800, 6)
+   130/349     6.39G   0.03878   0.05925   0.01683    0.1149       341       640
+   130/349     6.39G   0.03878   0.05925   0.01683    0.1149       341       640
+                 all          16         912      0.0254      0.0506      0.0266     0.00772
+   131/349     6.39G   0.03766   0.06732   0.01651    0.1215       917       640
+   131/349     6.39G   0.03766   0.06732   0.01651    0.1215       917       640
+targ: (912, 5)
+   131/349     6.39G    0.0378   0.06218   0.01585    0.1158       459       640
+   131/349     6.39G    0.0378   0.06218   0.01585    0.1158       459       640
+runs/train/yolor_p644/conf/conf_e131.jpg
+                 all          16         912      0.0326      0.0769      0.0387      0.0123
+New overall best!
+   132/349     6.39G   0.03643   0.04754   0.01693    0.1009       538       640
+   132/349     6.39G   0.03719   0.04719   0.01682    0.1012       351       640
+   132/349     6.39G   0.03719   0.04719   0.01682    0.1012       351       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e132.jpg
+                 all          16         912      0.0311      0.0915      0.0421      0.0126
+New overall best!
+   133/349     6.39G    0.0399   0.04863   0.01504    0.1036       329       640
+   133/349     6.39G    0.0399   0.04863   0.01504    0.1036       329       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e133.jpg
+                 all          16         912      0.0223      0.0851      0.0368      0.0108
+   134/349     6.39G   0.04262   0.05996   0.01508    0.1177       864       640
+   134/349     6.39G   0.04295   0.06372   0.01674    0.1234       647       640
+   134/349     6.39G   0.04295   0.06372   0.01674    0.1234       647       640
+targ: (912, 5)
+pred: (4800, 6)
+   134/349     6.39G   0.04227   0.05694   0.01654    0.1158       410       640
+   134/349     6.39G   0.04227   0.05694   0.01654    0.1158       410       640
+                 all          16         912       0.029      0.0558      0.0321      0.0103
+   135/349     6.39G   0.04072   0.03602   0.02004   0.09678       317       640
+   135/349     6.39G   0.04097   0.04891   0.01869    0.1086       878       640
+   135/349     6.39G   0.04097   0.04891   0.01869    0.1086       878       640
+targ: (912, 5)
+pred: (4800, 6)
+   135/349     6.39G   0.03991   0.04884   0.01703    0.1058       280       640
+   135/349     6.39G   0.03991   0.04884   0.01703    0.1058       280       640
+                 all          16         912      0.0521      0.0535      0.0458      0.0162
+New overall best!
+   135/349     6.39G   0.03991   0.04884   0.01703    0.1058       280       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e136.jpg
+   136/349     6.39G   0.03667    0.0554   0.01741    0.1095       195       640
+   136/349     6.39G   0.03667    0.0554   0.01741    0.1095       195       640
+   137/349     6.39G   0.03574   0.06105   0.01687    0.1137       637       640
+   137/349     6.39G   0.03629   0.05857   0.01743    0.1123       655       640
+   137/349     6.39G   0.03629   0.05857   0.01743    0.1123       655       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e137.jpg
+   137/349     6.39G   0.03605   0.05355   0.01662    0.1062       147       640
+   137/349     6.39G   0.03605   0.05355   0.01662    0.1062       147       640
+   138/349     6.39G   0.03813   0.04933   0.01637    0.1038       550       640
+   138/349     6.39G   0.03836   0.04774   0.01611    0.1022       476       640
+   138/349     6.39G   0.03836   0.04774   0.01611    0.1022       476       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e138.jpg
+   138/349     6.39G   0.03786   0.05564   0.01578    0.1093       447       640
+   138/349     6.39G   0.03786   0.05564   0.01578    0.1093       447       640
+   139/349     6.39G   0.03763   0.06293   0.01443     0.115       895       640
+   139/349     6.39G   0.03695   0.05589   0.01403    0.1069       596       640
+   139/349     6.39G   0.03695   0.05589   0.01403    0.1069       596       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e139.jpg
+   139/349     6.39G    0.0362    0.0571   0.01377    0.1071       472       640
+   139/349     6.39G    0.0362    0.0571   0.01377    0.1071       472       640
+   140/349     6.39G   0.03497   0.05746   0.01676    0.1092       660       640
+   140/349     6.39G   0.03458   0.05451   0.01833    0.1074       526       640
+   140/349     6.39G   0.03458   0.05451   0.01833    0.1074       526       640
+targ: (912, 5)
+   140/349     6.39G   0.03445   0.05395   0.01756     0.106       420       640
+   140/349     6.39G   0.03445   0.05395   0.01756     0.106       420       640
+runs/train/yolor_p644/conf/conf_e140.jpg
+                 all          16         912      0.0322      0.0761      0.0403      0.0124
+   141/349     6.39G   0.04457   0.04797   0.01869    0.1112       594       640
+   141/349     6.39G   0.04237   0.04854   0.01952    0.1104       474       640
+   141/349     6.39G   0.04237   0.04854   0.01952    0.1104       474       640
+targ: (912, 5)
+pred: (4800, 6)
+   141/349     6.39G   0.04302   0.04716   0.01859    0.1088       420       640
+   141/349     6.39G   0.04302   0.04716   0.01859    0.1088       420       640
+                 all          16         912      0.0325      0.0307      0.0252     0.00657
+   142/349     6.39G    0.0458   0.04241     0.015    0.1032       565       640
+   142/349     6.39G   0.04557   0.04822   0.01463    0.1084       899       640
+   142/349     6.39G   0.04557   0.04822   0.01463    0.1084       899       640
+targ: (912, 5)
+   142/349     6.39G    0.0436   0.04647   0.01635    0.1064       595       640
+   142/349     6.39G    0.0436   0.04647   0.01635    0.1064       595       640
+runs/train/yolor_p644/conf/conf_e142.jpg
+                 all          16         912      0.0413      0.0309      0.0304     0.00923
+   143/349     6.39G   0.03818   0.07387   0.01506    0.1271       743       640
+   143/349     6.39G   0.03906   0.06259   0.01518    0.1168       793       640
+   143/349     6.39G   0.03906   0.06259   0.01518    0.1168       793       640
+targ: (912, 5)
+pred: (4800, 6)
+   143/349     6.39G   0.03785   0.05356   0.01642    0.1078       487       640
+   143/349     6.39G   0.03785   0.05356   0.01642    0.1078       487       640
+                 all          16         912      0.0435      0.0534      0.0422      0.0136
+   144/349     6.39G    0.0353   0.03839   0.01876   0.09245       666       640
+   144/349     6.39G   0.03517   0.04783   0.01685   0.09985       766       640
+   144/349     6.39G   0.03422   0.04893   0.01768    0.1008       880       640
+   144/349     6.39G   0.03465   0.04939   0.01699     0.101       428       640
+   144/349     6.39G   0.03465   0.04939   0.01699     0.101       428       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e144.jpg
+                 all          16         912      0.0298      0.0399      0.0212     0.00481
+   145/349     6.39G   0.03591   0.04443   0.01478   0.09511       531       640
+   145/349     6.39G   0.03927   0.03785    0.0168   0.09392       527       640
+   145/349     6.39G   0.03927   0.03785    0.0168   0.09392       527       640
+targ: (912, 5)
+pred: (4800, 6)
+   145/349     6.39G    0.0414   0.03964   0.01641   0.09744       366       640
+   145/349     6.39G    0.0414   0.03964   0.01641   0.09744       366       640
+                 all          16         912      0.0136      0.0068      0.0158     0.00535
+   146/349     6.39G   0.04883   0.04729   0.01599    0.1121       672       640
+   146/349     6.39G   0.04931   0.04405   0.01621    0.1096       784       640
+   146/349     6.39G   0.04931   0.04405   0.01621    0.1096       784       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e146.jpg
+   146/349     6.39G   0.04527    0.0542   0.01577    0.1152       444       640
+   146/349     6.39G   0.04527    0.0542   0.01577    0.1152       444       640
+   147/349     6.39G   0.03888   0.05624   0.01545    0.1106       754       640
+   147/349     6.39G   0.03805   0.05521    0.0167      0.11       613       640
+   147/349     6.39G   0.03805   0.05521    0.0167      0.11       613       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e147.jpg
+   147/349     6.39G   0.03749   0.05558   0.01808    0.1111       469       640
+   147/349     6.39G   0.03749   0.05558   0.01808    0.1111       469       640
+   148/349     6.39G   0.03779   0.05469   0.01673    0.1092       355       640
+   148/349     6.39G   0.03779   0.05469   0.01673    0.1092       355       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e148.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   149/349     6.39G   0.03615    0.0524   0.01651    0.1051       820       640
+   149/349     6.39G   0.03697   0.05606   0.01644    0.1095       600       640
+   149/349     6.39G   0.03697   0.05606   0.01644    0.1095       600       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e149.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   150/349     6.39G   0.03995   0.03558   0.01702   0.09255       618       640
+   150/349     6.39G   0.04045   0.05025   0.01741    0.1081       800       640
+   150/349     6.39G   0.03988   0.05038   0.01649    0.1068       301       640
+   150/349     6.39G   0.03988   0.05038   0.01649    0.1068       301       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e150.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   151/349     6.39G   0.05636   0.05035   0.02094    0.1276       709       640
+   151/349     6.39G   0.04423   0.05535   0.01821    0.1178       295       640
+   151/349     6.39G   0.04423   0.05535   0.01821    0.1178       295       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e151.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   152/349     6.39G   0.04516   0.05356   0.01718    0.1159       452       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e152.jpg
+                 all          16         912        0.03       0.108      0.0386      0.0108
+   153/349     6.39G   0.03777   0.04722    0.0126   0.09759       505       640
+   153/349     6.39G   0.03836   0.04611   0.01356   0.09803       451       640
+   153/349     6.39G   0.03963   0.04481   0.01422   0.09866       393       640
+   153/349     6.39G   0.03963   0.04481   0.01422   0.09866       393       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e153.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   154/349     6.39G   0.04155   0.05671   0.01461    0.1129       589       640
+   154/349     6.39G    0.0395   0.05823   0.01472    0.1124       595       640
+   154/349     6.39G    0.0395   0.05823   0.01472    0.1124       595       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e154.jpg
+   154/349     6.39G   0.03837   0.06254   0.01524    0.1162       613       640
+   154/349     6.39G   0.03837   0.06254   0.01524    0.1162       613       640
+   155/349     6.39G   0.03478   0.05207   0.01575    0.1026      1020       640
+   155/349     6.39G    0.0351   0.05303   0.01499    0.1031       802       640
+   155/349     6.39G    0.0351   0.05303   0.01499    0.1031       802       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e155.jpg
+   155/349     6.39G   0.03614   0.05475   0.01529    0.1062       360       640
+   155/349     6.39G   0.03614   0.05475   0.01529    0.1062       360       640
+   156/349     6.39G   0.03395   0.05736   0.01702    0.1083       691       640
+   156/349     6.39G   0.03634   0.05952   0.01752    0.1134       381       640
+   156/349     6.39G   0.03634   0.05952   0.01752    0.1134       381       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e156.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   157/349     6.39G   0.03869   0.05448   0.01693    0.1101       521       640
+   157/349     6.39G   0.03747   0.05294   0.01649    0.1069       473       640
+   157/349     6.39G   0.03747   0.05294   0.01649    0.1069       473       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e157.jpg
+                 all          16         912      0.0378      0.0744      0.0374      0.0107
+   157/349     6.39G   0.03747   0.05294   0.01649    0.1069       473       640
+targ: (912, 5)
+pred: (4800, 6)
+   158/349     6.39G   0.03655   0.05155   0.01485    0.1029       297       640
+   158/349     6.39G   0.03655   0.05155   0.01485    0.1029       297       640
+                 all          16         912      0.0354      0.0901      0.0382     0.00937
+   159/349     6.39G   0.03607   0.05483   0.01559    0.1065       724       640
+   159/349     6.39G   0.03436   0.05348   0.01664    0.1045       518       640
+   159/349     6.39G   0.03436   0.05348   0.01664    0.1045       518       640
+targ: (912, 5)
+pred: (4800, 6)
+   159/349     6.39G   0.03393   0.05112   0.01575    0.1008       247       640
+   159/349     6.39G   0.03393   0.05112   0.01575    0.1008       247       640
+                 all          16         912      0.0468      0.0842      0.0502      0.0158
+New overall best!
+   160/349     6.39G   0.03226   0.05708   0.01488    0.1042       791       640
+   160/349     6.39G   0.03226   0.05708   0.01488    0.1042       791       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e160.jpg
+   160/349     6.39G    0.0324   0.05908   0.01461    0.1061       527       640
+   160/349     6.39G    0.0324   0.05908   0.01461    0.1061       527       640
+   161/349     6.39G   0.04661   0.05276   0.01748    0.1168       530       640
+   161/349     6.39G   0.04661   0.05276   0.01748    0.1168       530       640
+targ: (912, 5)
+   161/349     6.39G   0.04443   0.05269   0.01627    0.1134       228       640
+   161/349     6.39G   0.04443   0.05269   0.01627    0.1134       228       640
+runs/train/yolor_p644/conf/conf_e161.jpg
+                 all          16         912      0.0284       0.111      0.0424      0.0111
+   162/349     6.39G   0.03566   0.06043    0.0149     0.111       781       640
+   162/349     6.39G   0.03666   0.05931    0.0155    0.1115       484       640
+   162/349     6.39G   0.03666   0.05931    0.0155    0.1115       484       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e162.jpg
+                 all          16         912      0.0271       0.114        0.04      0.0114
+   163/349     6.39G   0.03765   0.05013   0.01731    0.1051       810       640
+   163/349     6.39G   0.03571    0.0557   0.01795    0.1093       810       640
+   163/349     6.39G   0.03586   0.05695   0.01759    0.1104       328       640
+   163/349     6.39G   0.03586   0.05695   0.01759    0.1104       328       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e163.jpg
+                 all          16         912      0.0322       0.122      0.0487      0.0145
+   164/349     6.39G   0.03498   0.04681   0.01602   0.09781       558       640
+   164/349     6.39G   0.03364    0.0603   0.01497    0.1089       550       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e164.jpg
+                 all          16         912      0.0393       0.109      0.0532      0.0165
+New overall best!
+   165/349     6.39G   0.03318   0.05684   0.01568    0.1057       577       640
+   165/349     6.39G   0.03305   0.05994   0.01512    0.1081       400       640
+   165/349     6.39G   0.03305   0.05994   0.01512    0.1081       400       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e165.jpg
+                 all          16         912      0.0467      0.0877      0.0515      0.0171
+New overall best!
+   166/349     6.39G    0.0332    0.0542   0.01548    0.1029       683       640
+   166/349     6.39G   0.03377    0.0577   0.01659    0.1081       459       640
+   166/349     6.39G   0.03377    0.0577   0.01659    0.1081       459       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e166.jpg
+                 all          16         912      0.0518      0.0893      0.0521      0.0171
+New overall best!
+   167/349     6.39G   0.03188   0.05888   0.01525     0.106       424       640
+   167/349     6.39G   0.03188   0.05888   0.01525     0.106       424       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e167.jpg
+                 all          16         912      0.0496       0.096      0.0542      0.0188
+New overall best!
+   168/349     6.39G    0.0318   0.05384   0.01539     0.101       418       640
+   168/349     6.39G    0.0318   0.05384   0.01539     0.101       418       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e168.jpg
+                 all          16         912      0.0512       0.094      0.0562      0.0184
+   169/349     6.39G   0.03488   0.05752   0.01538    0.1078       670       640
+   169/349     6.39G   0.03391   0.05474   0.01496    0.1036       649       640
+   169/349     6.39G   0.03328   0.05528   0.01425    0.1028       543       640
+   169/349     6.39G   0.03328   0.05528   0.01425    0.1028       543       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e169.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   170/349     6.39G   0.03198   0.05328   0.01634    0.1016       553       640
+   170/349     6.39G   0.03194   0.05191   0.01539   0.09924       298       640
+   170/349     6.39G   0.03194   0.05191   0.01539   0.09924       298       640
+targ: (912, 5)
+pred: (4800, 6)
+   170/349     6.39G   0.03194   0.05191   0.01539   0.09924       298       640
+runs/train/yolor_p644/conf/conf_e170.jpg
+   171/349     6.39G   0.03378   0.06246   0.01365    0.1099       741       640
+   171/349     6.39G   0.03285   0.05534   0.01453    0.1027       324       640
+   171/349     6.39G   0.03285   0.05534   0.01453    0.1027       324       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e171.jpg
+                 all          16         912      0.0313       0.103      0.0547      0.0189
+New overall best!
+   172/349     6.39G   0.03249   0.05084   0.01511   0.09844       234       640
+   172/349     6.39G   0.03249   0.05084   0.01511   0.09844       234       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e172.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+   173/349     6.39G   0.03047   0.04888   0.01378   0.09313       692       640
+   173/349     6.39G   0.03039   0.05115   0.01391   0.09546       506       640
+   173/349     6.39G   0.03059   0.05062   0.01452   0.09573       486       640
+   173/349     6.39G   0.03059   0.05062   0.01452   0.09573       486       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e173.jpg
+                 all          16         912      0.0413      0.0828      0.0564      0.0213
+New overall best!
+   174/349     6.39G   0.03298   0.06122   0.01607    0.1103       375       640
+   174/349     6.39G   0.03298   0.06122   0.01607    0.1103       375       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e174.jpg
+                 all          16         912      0.0432      0.0847      0.0582       0.023
+New overall best!
+   175/349     6.39G   0.03514   0.05287   0.01541    0.1034       402       640
+   175/349     6.39G   0.03514   0.05287   0.01541    0.1034       402       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e175.jpg
+                 all          16         912      0.0534      0.0877      0.0563      0.0188
+   176/349     6.39G   0.03582   0.03808   0.01186   0.08576       634       640
+   176/349     6.39G   0.03446   0.04134   0.01574   0.09155       283       640
+   176/349     6.39G   0.03446   0.04134   0.01574   0.09155       283       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e176.jpg
+                 all          16         912      0.0663      0.0795      0.0572      0.0183
+   177/349     6.39G   0.03407   0.05242    0.0154    0.1019       516       640
+   177/349     6.39G   0.03443   0.05063    0.0153    0.1004       313       640
+   177/349     6.39G   0.03443   0.05063    0.0153    0.1004       313       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e177.jpg
+                 all          16         912      0.0621      0.0984      0.0611       0.021
+   178/349     6.39G   0.03099   0.05678   0.01483    0.1026       430       640
+   178/349     6.39G   0.03234   0.05794   0.01484    0.1051       446       640
+   178/349     6.39G   0.03234   0.05794   0.01484    0.1051       446       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e178.jpg
+                 all          16         912      0.0529       0.112      0.0613       0.022
+   179/349     6.39G   0.03306   0.05538   0.01513    0.1036       672       640
+   179/349     6.39G   0.03117   0.05738    0.0141    0.1026       975       640
+   179/349     6.39G   0.03111   0.05612   0.01469    0.1019       238       640
+   179/349     6.39G   0.03111   0.05612   0.01469    0.1019       238       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e179.jpg
+                 all          16         912      0.0434       0.125      0.0544      0.0185
+   180/349     6.39G   0.03116   0.04904   0.01377   0.09397       713       640
+   180/349     6.39G   0.03116   0.05572   0.01322    0.1001       438       640
+   180/349     6.39G   0.03116   0.05572   0.01322    0.1001       438       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e180.jpg
+   180/349     6.39G   0.03116   0.05572   0.01322    0.1001       438       640
+   181/349     6.39G   0.03223   0.04717   0.01406   0.09346       676       640
+   181/349     6.39G   0.03203   0.04722   0.01436   0.09362       638       640
+   181/349     6.39G   0.03185   0.05077   0.01419    0.0968       516       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e181.jpg
+                 all          16         912      0.0492       0.112      0.0538      0.0187
+   182/349     6.39G   0.03207   0.04872   0.01412   0.09491       747       640
+   182/349     6.39G   0.03294   0.04882   0.01469   0.09644       594       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e182.jpg
+                 all          16         912      0.0642      0.0964      0.0585      0.0203
+   183/349     6.39G   0.03297   0.04938   0.01498   0.09734       609       640
+   183/349     6.39G   0.03181   0.05129   0.01483   0.09793       788       640
+   183/349     6.39G   0.03168     0.047   0.01433     0.093       383       640
+   183/349     6.39G   0.03168     0.047   0.01433     0.093       383       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e183.jpg
+                 all          16         912      0.0704      0.0625      0.0577      0.0202
+   184/349     6.39G   0.03027   0.04764   0.01853   0.09643       648       640
+   184/349     6.39G   0.03164   0.04477   0.01764   0.09405       314       640
+   184/349     6.39G   0.03164   0.04477   0.01764   0.09405       314       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e184.jpg
+                 all          16         912      0.0848      0.0487      0.0606       0.022
+   185/349     6.39G   0.03086   0.04936   0.01807   0.09829       834       640
+   185/349     6.39G   0.03316   0.04941   0.01696   0.09952       756       640
+   185/349     6.39G   0.03352   0.04506   0.01708   0.09565       418       640
+   185/349     6.39G   0.03462   0.04997   0.01688    0.1015       489       640
+   185/349     6.39G   0.03462   0.04997   0.01688    0.1015       489       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e185.jpg
+                 all          16         912      0.0797      0.0621      0.0623      0.0209
+   186/349     6.39G   0.03182   0.05141   0.01528    0.0985       720       640
+   186/349     6.39G   0.03151   0.05142   0.01553   0.09846       869       640
+   186/349     6.39G   0.03164   0.05583   0.01505    0.1025       490       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e186.jpg
+                 all          16         912       0.078      0.0783       0.063      0.0221
+   187/349     6.39G   0.03167   0.05403   0.01507    0.1008       641       640
+   187/349     6.39G   0.03315   0.05549   0.01502    0.1037       577       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e187.jpg
+                 all          16         912      0.0711      0.0854      0.0633      0.0226
+New overall best!
+   188/349     6.39G   0.03246   0.04694   0.01326   0.09266       573       640
+   188/349     6.39G   0.03278   0.05041   0.01407   0.09726       533       640
+   188/349     6.39G   0.03278   0.05041   0.01407   0.09726       533       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e188.jpg
+   188/349     6.39G   0.03278   0.05041   0.01407   0.09726       533       640
+   189/349     6.39G   0.06716   0.06207   0.01947    0.1487       760       640
+   189/349     6.39G   0.04331   0.05464   0.01624    0.1142       789       640
+   189/349     6.39G   0.03868   0.05805   0.01601    0.1127       352       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e189.jpg
+                 all          16         912      0.0561       0.107      0.0644      0.0241
+New overall best!
+   190/349     6.39G   0.03189   0.05331   0.01468   0.09989       679       640
+   190/349     6.39G   0.03146   0.05347   0.01498   0.09991       683       640
+   190/349     6.39G   0.03205    0.0513   0.01508   0.09843       396       640
+   190/349     6.39G   0.03205    0.0513   0.01508   0.09843       396       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e190.jpg
+                 all          16         912      0.0513       0.113      0.0645      0.0234
+   191/349     6.39G   0.03077   0.05046   0.01549   0.09672       555       640
+   191/349     6.39G   0.03116   0.04832   0.01648   0.09596       611       640
+   191/349     6.39G   0.03117   0.04697   0.01598   0.09413       655       640
+   191/349     6.39G   0.03023    0.0442   0.01479   0.08922       271       640
+   191/349     6.39G   0.03023    0.0442   0.01479   0.08922       271       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e191.jpg
+                 all          16         912      0.0578       0.111      0.0643      0.0225
+   192/349     6.39G   0.03203   0.04629   0.01793   0.09626       727       640
+   192/349     6.39G    0.0324   0.04858    0.0165   0.09748       301       640
+   192/349     6.39G    0.0324   0.04858    0.0165   0.09748       301       640
+targ: (912, 5)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p644/conf/conf_e192.jpg
+                 all          16         912      0.0685       0.106      0.0635      0.0225
+   193/349     6.39G   0.03009   0.04391   0.01398   0.08798       640       640
+   193/349     6.39G    0.0305   0.04963   0.01495   0.09507       676       640
+   193/349     6.39G   0.03211   0.04896   0.01633    0.0974       488       640
+   193/349     6.39G   0.03211   0.04896   0.01633    0.0974       488       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e193.jpg
+                 all          16         912      0.0646       0.103      0.0632      0.0209
+   194/349     6.39G   0.03085   0.04525   0.01504   0.09113       703       640
+   194/349     6.39G     0.031    0.0412   0.01475   0.08694       629       640
+   194/349     6.39G   0.03166   0.04609   0.01464    0.0924       358       640
+   194/349     6.39G   0.03166   0.04609   0.01464    0.0924       358       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e194.jpg
+                 all          16         912       0.069       0.105      0.0664      0.0229
+   195/349     6.39G   0.03055    0.0573   0.01489    0.1027      1207       640
+   195/349     6.39G   0.03066   0.06134    0.0151    0.1071       717       640
+   195/349     6.39G    0.0316   0.05618   0.01527     0.103       481       640
+   195/349     6.39G    0.0316   0.05618   0.01527     0.103       481       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0673       0.105      0.0654       0.021
+   196/349     6.39G   0.03248   0.04852   0.01275   0.09375       863       640
+   196/349     6.39G   0.03172   0.04791   0.01355   0.09317       544       640
+   196/349     6.39G   0.03172   0.04791   0.01355   0.09317       544       640
+targ: (912, 5)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p644/conf/conf_e196.jpg
+                 all          16         912      0.0694      0.0892      0.0644      0.0251
+New overall best!
+   197/349     6.39G   0.03208   0.05317   0.01346   0.09871       762       640
+   197/349     6.39G   0.03299   0.05008   0.01461   0.09768       666       640
+   197/349     6.39G   0.03264   0.05106   0.01406   0.09777       478       640
+   197/349     6.39G   0.03264   0.05106   0.01406   0.09777       478       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e197.jpg
+                 all          16         912      0.0702      0.0933      0.0677      0.0244
+   198/349     6.39G   0.03061   0.05009   0.01826   0.09896       673       640
+   198/349     6.39G   0.03229   0.04681   0.01789   0.09699       853       640
+   198/349     6.39G   0.03244     0.047   0.01717   0.09661       424       640
+   198/349     6.39G   0.03214   0.05103   0.01691    0.1001       540       640
+   198/349     6.39G   0.03214   0.05103   0.01691    0.1001       540       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e198.jpg
+                 all          16         912      0.0658       0.105      0.0677      0.0241
+   199/349     6.39G   0.03094   0.04831   0.01441   0.09366       764       640
+   199/349     6.39G   0.03054   0.04796   0.01379   0.09229       362       640
+   199/349     6.39G   0.03085   0.05033   0.01375   0.09494       359       640
+   199/349     6.39G   0.03085   0.05033   0.01375   0.09494       359       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e199.jpg
+                 all          16         912      0.0655       0.106      0.0695      0.0259
+New overall best!
+   200/349     6.39G   0.02994    0.0539   0.01464   0.09848       621       640
+   200/349     6.39G   0.02994    0.0539   0.01464   0.09848       621       640
+targ: (912, 5)
+pred: (4800, 6)
+   200/349     6.39G   0.03075   0.05524   0.01457    0.1006       272       640
+   200/349     6.39G   0.03075   0.05524   0.01457    0.1006       272       640
+                 all          16         912      0.0691       0.102      0.0696      0.0247
+   201/349     6.39G   0.03067   0.05244   0.01451   0.09761       628       640
+   201/349     6.39G   0.03175   0.05399   0.01401   0.09975       584       640
+   201/349     6.39G   0.03142   0.05238   0.01378   0.09758       628       640
+   201/349     6.39G   0.03142   0.05238   0.01378   0.09758       628       640
+targ: (912, 5)
+   201/349     6.39G   0.03161   0.05303   0.01379   0.09843       597       640
+   201/349     6.39G   0.03161   0.05303   0.01379   0.09843       597       640
+runs/train/yolor_p644/conf/conf_e201.jpg
+                 all          16         912      0.0563        0.12      0.0656      0.0221
+   202/349     6.39G   0.03121   0.05656   0.01427     0.102      1060       640
+   202/349     6.39G   0.03183   0.05844   0.01456    0.1048       969       640
+   202/349     6.39G   0.03327   0.05249   0.01483    0.1006       195       640
+   202/349     6.39G   0.03327   0.05249   0.01483    0.1006       195       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e202.jpg
+                 all          16         912      0.0569       0.123      0.0686      0.0238
+   203/349     6.39G   0.03328    0.0379   0.01445   0.08563       542       640
+   203/349     6.39G   0.03293   0.04562   0.01626   0.09481       965       640
+   203/349     6.39G   0.03201   0.05753   0.01532    0.1049       512       640
+   203/349     6.39G   0.03182   0.05874   0.01555    0.1061       493       640
+   203/349     6.39G   0.03182   0.05874   0.01555    0.1061       493       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e203.jpg
+                 all          16         912      0.0567       0.121      0.0665      0.0239
+   204/349     6.39G   0.03148   0.06028   0.01512    0.1069       843       640
+   204/349     6.39G   0.03101   0.05384   0.01491   0.09976       733       640
+   204/349     6.39G   0.03102   0.05287   0.01464   0.09853       365       640
+   204/349     6.39G   0.03102   0.05287   0.01464   0.09853       365       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e204.jpg
+                 all          16         912      0.0498       0.113      0.0612      0.0197
+   205/349     6.39G   0.03084   0.04024    0.0155   0.08659       438       640
+   205/349     6.39G   0.03221   0.05251   0.01563    0.1003       472       640
+   205/349     6.39G   0.03227   0.05351   0.01615    0.1019       329       640
+   205/349     6.39G   0.03227   0.05351   0.01615    0.1019       329       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0475        0.12      0.0649      0.0242
+   206/349     6.39G   0.03303   0.06743   0.01742    0.1179       593       640
+   206/349     6.39G   0.03191   0.06417   0.01633    0.1124       623       640
+   206/349     6.39G   0.03114    0.0581   0.01591    0.1051       682       640
+   206/349     6.39G   0.03114    0.0581   0.01591    0.1051       682       640
+targ: (912, 5)
+pred: (4800, 6)
+   206/349     6.39G   0.03105   0.06479   0.01534    0.1112       387       640
+   206/349     6.39G   0.03105   0.06479   0.01534    0.1112       387       640
+                 all          16         912      0.0494       0.122      0.0658       0.024
+   207/349     6.39G   0.03387   0.05994    0.0157    0.1095       657       640
+   207/349     6.39G   0.03187   0.05871    0.0159    0.1065      1026       640
+   207/349     6.39G    0.0324   0.05528   0.01565    0.1033       490       640
+   207/349     6.39G    0.0324   0.05528   0.01565    0.1033       490       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e207.jpg
+                 all          16         912      0.0457       0.128      0.0675      0.0241
+   208/349     6.39G   0.03099   0.05334   0.01358   0.09791       598       640
+   208/349     6.39G   0.03069   0.05726     0.014    0.1019       361       640
+   208/349     6.39G   0.03069   0.05726     0.014    0.1019       361       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e208.jpg
+                 all          16         912      0.0412        0.13      0.0633       0.023
+   209/349     6.39G   0.03239    0.0544   0.01765    0.1044       733       640
+   209/349     6.39G   0.04003   0.04761   0.01726    0.1049       526       640
+   209/349     6.39G   0.04003   0.04761   0.01726    0.1049       526       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0427       0.131      0.0634      0.0235
+   210/349     6.39G   0.02971   0.03977   0.01297   0.08245       627       640
+   210/349     6.39G   0.03154   0.04463   0.01343    0.0896       605       640
+   210/349     6.39G   0.03228   0.04568   0.01387   0.09183       479       640
+   210/349     6.39G   0.03228   0.04568   0.01387   0.09183       479       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e210.jpg
+                 all          16         912      0.0478        0.13      0.0627      0.0197
+   211/349     6.39G   0.03221    0.0533   0.01473    0.1002       510       640
+   211/349     6.39G   0.03143   0.05434   0.01521     0.101       725       640
+   211/349     6.39G   0.03203   0.05069   0.01583   0.09856       374       640
+   211/349     6.39G   0.03203   0.05069   0.01583   0.09856       374       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e211.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   212/349     6.39G   0.02924   0.05652   0.01351   0.09927       791       640
+   212/349     6.39G   0.03008   0.05443   0.01568    0.1002       648       640
+   212/349     6.39G   0.03108     0.054   0.01573    0.1008       706       640
+   212/349     6.39G   0.03092   0.06004    0.0146    0.1056       663       640
+   212/349     6.39G   0.03092   0.06004    0.0146    0.1056       663       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e212.jpg
+                 all          16         912      0.0612       0.111       0.063       0.022
+   213/349     6.39G   0.02882    0.0398    0.0189   0.08752       422       640
+   213/349     6.39G   0.03008   0.04437   0.01733   0.09178       540       640
+   213/349     6.39G   0.03078   0.04451   0.01572   0.09101       333       640
+   213/349     6.39G   0.03078   0.04451   0.01572   0.09101       333       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e213.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   214/349     6.39G   0.03188   0.04821    0.0149   0.09499       648       640
+   214/349     6.39G   0.03007    0.0633   0.01522    0.1086       671       640
+   214/349     6.39G   0.03025    0.0619   0.01531    0.1075       311       640
+   214/349     6.39G   0.03025    0.0619   0.01531    0.1075       311       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e214.jpg
+                 all          16         912      0.0666        0.11      0.0662      0.0253
+   215/349     6.39G    0.0324   0.06528   0.01497    0.1127       820       640
+   215/349     6.39G    0.0319   0.05873   0.01498    0.1056       565       640
+   215/349     6.39G   0.03173    0.0563   0.01516    0.1032       288       640
+   215/349     6.39G   0.03173    0.0563   0.01516    0.1032       288       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e215.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   216/349     6.39G   0.03221   0.03517   0.01523   0.08261       392       640
+   216/349     6.39G   0.03221   0.03517   0.01523   0.08261       392       640
+targ: (912, 5)
+   216/349     6.39G   0.03276   0.04005   0.01643   0.08924       241       640
+   216/349     6.39G   0.03276   0.04005   0.01643   0.08924       241       640
+runs/train/yolor_p644/conf/conf_e216.jpg
+                 all          16         912      0.0578       0.115      0.0609      0.0197
+   217/349     6.39G   0.03239   0.04568   0.01363    0.0917       572       640
+   217/349     6.39G   0.03273   0.05718   0.01512     0.105       759       640
+   217/349     6.39G   0.03312   0.05725    0.0154    0.1058       272       640
+   217/349     6.39G   0.03312   0.05725    0.0154    0.1058       272       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e217.jpg
+                 all          16         912      0.0649       0.114      0.0662      0.0216
+   218/349     6.39G   0.03196   0.04354   0.01615   0.09165       680       640
+   218/349     6.39G   0.03287   0.04991   0.01744    0.1002       439       640
+   218/349     6.39G   0.03287   0.04991   0.01744    0.1002       439       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e218.jpg
+                 all          16         912      0.0666        0.12      0.0688       0.025
+   219/349     6.39G   0.03026   0.05587   0.01445    0.1006       447       640
+   219/349     6.39G   0.03018   0.05866   0.01472    0.1036       370       640
+   219/349     6.39G   0.03018   0.05866   0.01472    0.1036       370       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e219.jpg
+                 all          16         912      0.0615       0.122      0.0693      0.0259
+   220/349     6.39G   0.03031   0.04784   0.01252   0.09067       731       640
+   220/349     6.39G   0.03171   0.05839   0.01412    0.1042       311       640
+   220/349     6.39G   0.03171   0.05839   0.01412    0.1042       311       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e220.jpg
+                 all          16         912      0.0624       0.121      0.0718      0.0242
+   221/349     6.39G   0.03399     0.048    0.0145   0.09648       854       640
+   221/349     6.39G   0.03399     0.048    0.0145   0.09648       854       640
+targ: (912, 5)
+pred: (4800, 6)
+   221/349     6.39G    0.0334   0.04563   0.01492   0.09395       263       640
+   221/349     6.39G    0.0334   0.04563   0.01492   0.09395       263       640
+                 all          16         912       0.067       0.117       0.072      0.0255
+   222/349     6.39G   0.03093   0.05268   0.01288   0.09649       634       640
+   222/349     6.39G   0.03093   0.05268   0.01288   0.09649       634       640
+targ: (912, 5)
+   222/349     6.39G   0.03115   0.05382   0.01367   0.09865       526       640
+   222/349     6.39G   0.03115   0.05382   0.01367   0.09865       526       640
+runs/train/yolor_p644/conf/conf_e222.jpg
+                 all          16         912      0.0619       0.112      0.0682      0.0264
+New overall best!
+   223/349     6.39G    0.0304   0.04925   0.01446   0.09411       916       640
+   223/349     6.39G   0.03058   0.04939    0.0141   0.09407       323       640
+   223/349     6.39G   0.03058   0.04939    0.0141   0.09407       323       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e223.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+   224/349     6.39G   0.03109   0.04927   0.01418   0.09454       680       640
+   224/349     6.39G   0.03109   0.04927   0.01418   0.09454       680       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e224.jpg
+                 all          16         912      0.0752       0.101      0.0757      0.0278
+   225/349     6.39G    0.0307   0.04026   0.01532   0.08628       720       640
+   225/349     6.39G    0.0307   0.04026   0.01532   0.08628       720       640
+targ: (912, 5)
+   225/349     6.39G   0.03086   0.04424   0.01495   0.09004       433       640
+   225/349     6.39G   0.03086   0.04424   0.01495   0.09004       433       640
+runs/train/yolor_p644/conf/conf_e225.jpg
+                 all          16         912      0.0802       0.081      0.0731      0.0285
+   226/349     6.39G   0.03421   0.04891   0.01164   0.09476      1166       640
+   226/349     6.39G   0.03421   0.04891   0.01164   0.09476      1166       640
+targ: (912, 5)
+   226/349     6.39G   0.03475   0.05304   0.01315    0.1009       390       640
+   226/349     6.39G   0.03475   0.05304   0.01315    0.1009       390       640
+runs/train/yolor_p644/conf/conf_e226.jpg
+                 all          16         912      0.0826      0.0698      0.0715      0.0244
+   227/349     6.39G   0.03555   0.06619   0.01263    0.1144       856       640
+   227/349     6.39G   0.03504   0.05603   0.01589     0.107       648       640
+   227/349     6.39G   0.03504   0.05603   0.01589     0.107       648       640
+targ: (912, 5)
+   227/349     6.39G   0.03501    0.0582    0.0158     0.109       481       640
+   227/349     6.39G   0.03501    0.0582    0.0158     0.109       481       640
+runs/train/yolor_p644/conf/conf_e227.jpg
+                 all          16         912      0.0838      0.0679      0.0667      0.0239
+   228/349     6.39G    0.0335   0.04655   0.01573   0.09578       592       640
+   228/349     6.39G   0.03391   0.05051   0.01532   0.09974       382       640
+   228/349     6.39G   0.03391   0.05051   0.01532   0.09974       382       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e228.jpg
+                 all          16         912      0.0726       0.074      0.0672      0.0247
+   229/349     6.39G   0.03222   0.05846    0.0144    0.1051       680       640
+   229/349     6.39G   0.03141   0.06015   0.01425    0.1058       368       640
+   229/349     6.39G   0.03141   0.06015   0.01425    0.1058       368       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e229.jpg
+                 all          16         912      0.0667      0.0737      0.0636      0.0248
+   230/349     6.39G      0.03   0.04632   0.01201   0.08833       669       640
+   230/349     6.39G   0.03683    0.0468   0.01525   0.09889       271       640
+   230/349     6.39G   0.03683    0.0468   0.01525   0.09889       271       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e230.jpg
+                 all          16         912      0.0589      0.0809      0.0636      0.0243
+   231/349     6.39G   0.03147   0.05138   0.01922    0.1021       828       640
+   231/349     6.39G   0.03045   0.05368   0.01572   0.09985       768       640
+   231/349     6.39G   0.03022   0.05926   0.01496    0.1044       498       640
+   231/349     6.39G   0.03022   0.05926   0.01496    0.1044       498       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e231.jpg
+                 all          16         912      0.0579      0.0939      0.0679       0.026
+   232/349     6.39G   0.02958   0.05646   0.01399       0.1       623       640
+   232/349     6.39G   0.02958   0.05646   0.01399       0.1       623       640
+targ: (912, 5)
+   232/349     6.39G   0.02899   0.05596   0.01508       0.1       404       640
+   232/349     6.39G   0.02899   0.05596   0.01508       0.1       404       640
+runs/train/yolor_p644/conf/conf_e232.jpg
+                 all          16         912      0.0638       0.104      0.0723      0.0272
+   233/349     6.39G   0.03068   0.04757   0.01582   0.09407       470       640
+   233/349     6.39G   0.03068   0.04757   0.01582   0.09407       470       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e233.jpg
+                 all          16         912      0.0636       0.099      0.0715      0.0277
+   234/349     6.39G   0.02792   0.04643   0.01355    0.0879       662       640
+   234/349     6.39G   0.02924    0.0444   0.01338   0.08701       603       640
+   234/349     6.39G   0.02924    0.0444   0.01338   0.08701       603       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e234.jpg
+                 all          16         912      0.0683      0.0936      0.0732      0.0276
+   235/349     6.39G   0.03088   0.04091   0.01386   0.08565       536       640
+   235/349     6.39G   0.03009   0.05795   0.01438    0.1024       705       640
+   235/349     6.39G   0.03773   0.05895   0.01544    0.1121       615       640
+   235/349     6.39G   0.03773   0.05895   0.01544    0.1121       615       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e235.jpg
+                 all          16         912      0.0745      0.0844      0.0726      0.0277
+   236/349     6.39G    0.0311   0.04719   0.01726   0.09555       289       640
+   236/349     6.39G    0.0311   0.04719   0.01726   0.09555       289       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e236.jpg
+   236/349     6.39G    0.0311   0.04719   0.01726   0.09555       289       640
+   237/349     6.39G   0.02973   0.04296   0.01456   0.08724       591       640
+   237/349     6.39G   0.03103   0.04841     0.016   0.09544       498       640
+   237/349     6.39G   0.03103   0.04841     0.016   0.09544       498       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e237.jpg
+                 all          16         912      0.0807      0.0672      0.0692      0.0264
+   238/349     6.39G   0.02907   0.05532   0.01472   0.09911       368       640
+   238/349     6.39G   0.02907   0.05532   0.01472   0.09911       368       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e238.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   239/349     6.39G   0.03094   0.04328   0.01443   0.08865       532       640
+   239/349     6.39G   0.02944   0.05705   0.01438    0.1009       622       640
+   239/349     6.39G   0.02857   0.05553   0.01371   0.09781       262       640
+   239/349     6.39G   0.02857   0.05553   0.01371   0.09781       262       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e239.jpg
+                 all          16         912      0.0861      0.0859      0.0712      0.0274
+   240/349     6.39G    0.0297    0.0568   0.01383    0.1003       736       640
+   240/349     6.39G   0.02996    0.0521   0.01295   0.09502       392       640
+   240/349     6.39G   0.02996    0.0521   0.01295   0.09502       392       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e240.jpg
+                 all          16         912      0.0718      0.0911       0.067      0.0261
+   241/349     6.39G   0.02785   0.04849   0.01195   0.08829       641       640
+   241/349     6.39G    0.0294   0.04632   0.01304   0.08877       309       640
+   241/349     6.39G    0.0294   0.04632   0.01304   0.08877       309       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e241.jpg
+                 all          16         912      0.0647       0.107      0.0686      0.0265
+   242/349     6.39G    0.0297   0.04296   0.01518   0.08785       306       640
+   242/349     6.39G    0.0297   0.04296   0.01518   0.08785       306       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e242.jpg
+                 all          16         912      0.0638       0.122      0.0731      0.0283
+   243/349     6.39G   0.03095   0.04479   0.01759   0.09333       442       640
+   243/349     6.39G   0.03108   0.04485   0.01733   0.09326       684       640
+   243/349     6.39G   0.03107   0.05017    0.0162   0.09744       453       640
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e243.jpg
+                 all          16         912      0.0603       0.138      0.0752      0.0251
+   244/349     6.39G   0.03147   0.05465   0.01297   0.09909       601       640
+   244/349     6.39G   0.03085   0.05045   0.01282   0.09412       509       640
+   244/349     6.39G   0.03041   0.05074   0.01427   0.09543       421       640
+   244/349     6.39G   0.03041   0.05074   0.01427   0.09543       421       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e244.jpg
+                 all          16         912      0.0597       0.136      0.0762      0.0279
+   245/349     6.39G   0.03014   0.05408    0.0128   0.09701       797       640
+   245/349     6.39G   0.03106   0.05124   0.01375   0.09605       328       640
+   245/349     6.39G   0.03106   0.05124   0.01375   0.09605       328       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e245.jpg
+                 all          16         912      0.0697       0.128      0.0732      0.0278
+   246/349     6.39G   0.02894   0.05493   0.01257   0.09644       511       640
+   246/349     6.39G   0.02894   0.05493   0.01257   0.09644       511       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e246.jpg
+   246/349     6.39G   0.02894   0.05493   0.01257   0.09644       511       640
+   247/349     6.39G   0.03202   0.05571   0.01788    0.1056       595       640
+   247/349     6.39G   0.02964   0.05159   0.01605   0.09727       617       640
+   247/349     6.39G   0.03044   0.05055   0.01536   0.09634       419       640
+   247/349     6.39G   0.03044   0.05055   0.01536   0.09634       419       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e247.jpg
+                 all          16         912      0.0722       0.118       0.072      0.0284
+   248/349     6.39G   0.04108   0.05787   0.01785    0.1168       631       640
+   248/349     6.39G   0.03663   0.05272   0.01626    0.1056       588       640
+   248/349     6.39G   0.03663   0.05272   0.01626    0.1056       588       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e248.jpg
+                 all          16         912      0.0701       0.129      0.0775      0.0285
+New overall best!
+   249/349     6.39G   0.03063   0.04714   0.01399   0.09176       459       640
+   249/349     6.39G   0.03063   0.04714   0.01399   0.09176       459       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e249.jpg
+                 all          16         912      0.0615       0.139      0.0807      0.0287
+New overall best!
+   249/349     6.39G   0.03063   0.04714   0.01399   0.09176       459       640
+targ: (912, 5)
+pred: (4800, 6)
+   250/349     6.39G    0.0284   0.04603   0.01317    0.0876       368       640
+   250/349     6.39G    0.0284   0.04603   0.01317    0.0876       368       640
+                 all          16         912      0.0563       0.147      0.0787      0.0277
+   251/349     6.39G   0.02856   0.04541   0.01483    0.0888       561       640
+   251/349     6.39G   0.02991   0.04624   0.01575    0.0919       729       640
+   251/349     6.39G   0.03036   0.04559    0.0154   0.09135       327       640
+   251/349     6.39G   0.03036   0.04559    0.0154   0.09135       327       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0539       0.148      0.0741      0.0277
+   252/349     6.39G   0.03126   0.04553   0.01805   0.09485       803       640
+   252/349     6.39G   0.03126   0.04553   0.01805   0.09485       803       640
+targ: (912, 5)
+   252/349     6.39G   0.03162    0.0558   0.01757     0.105       415       640
+   252/349     6.39G   0.03162    0.0558   0.01757     0.105       415       640
+runs/train/yolor_p644/conf/conf_e252.jpg
+                 all          16         912      0.0603       0.136       0.072       0.029
+   253/349     6.39G   0.02957   0.06043   0.01303     0.103       896       640
+   253/349     6.39G    0.0293    0.0549   0.01238   0.09657       636       640
+   253/349     6.39G   0.02976   0.05235   0.01353   0.09564       380       640
+   253/349     6.39G   0.02976   0.05235   0.01353   0.09564       380       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e253.jpg
+                 all          16         912      0.0628       0.129      0.0727      0.0286
+   254/349     6.39G   0.03093    0.0517   0.01972    0.1023       809       640
+   254/349     6.39G   0.03032   0.05346   0.01481   0.09859       791       640
+   254/349     6.39G    0.0302   0.05706    0.0145    0.1018       507       640
+   254/349     6.39G    0.0302   0.05706    0.0145    0.1018       507       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e254.jpg
+                 all          16         912      0.0597       0.127      0.0701      0.0282
+   255/349     6.39G   0.02775   0.04516    0.0142   0.08711       809       640
+   255/349     6.39G   0.02829   0.04511   0.01339   0.08678       726       640
+   255/349     6.39G   0.02829   0.04511   0.01339   0.08678       726       640
+targ: (912, 5)
+pred: (4800, 6)
+   255/349     6.39G   0.02947   0.04445   0.01309     0.087       522       640
+   255/349     6.39G   0.02947   0.04445   0.01309     0.087       522       640
+                 all          16         912      0.0629       0.129      0.0728      0.0282
+   256/349     6.39G   0.03167   0.04888   0.01728   0.09783       623       640
+   256/349     6.39G   0.03138   0.05311   0.01621    0.1007       402       640
+   256/349     6.39G   0.03138   0.05311   0.01621    0.1007       402       640
+targ: (912, 5)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p644/conf/conf_e256.jpg
+                 all          16         912      0.0673       0.119      0.0706      0.0281
+   257/349     6.39G   0.02775   0.04215   0.01193   0.08183       564       640
+   257/349     6.39G   0.02964   0.05574   0.01332    0.0987       368       640
+   257/349     6.39G   0.02964   0.05574   0.01332    0.0987       368       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912        0.08       0.112      0.0728       0.027
+   258/349     6.39G   0.03065   0.03838   0.01445   0.08348       501       640
+   258/349     6.39G   0.02933   0.05835   0.01312    0.1008       902       640
+   258/349     6.39G   0.02853   0.05745   0.01311   0.09909       234       640
+   258/349     6.39G   0.02853   0.05745   0.01311   0.09909       234       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e258.jpg
+                 all          16         912      0.0852       0.114      0.0758      0.0284
+   259/349     6.39G   0.02916   0.04701   0.01315   0.08932       672       640
+   259/349     6.39G   0.02943   0.04525   0.01328   0.08796       567       640
+   259/349     6.39G    0.0295   0.04868   0.01292    0.0911       337       640
+   259/349     6.39G    0.0295   0.04868   0.01292    0.0911       337       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e259.jpg
+                 all          16         912      0.0868       0.109      0.0774      0.0275
+   260/349     6.39G   0.02937   0.05965   0.01192    0.1009       569       640
+   260/349     6.39G   0.02865   0.05898   0.01169   0.09932       611       640
+   260/349     6.39G   0.02944   0.05374    0.0124   0.09557       428       640
+   260/349     6.39G   0.02944   0.05374    0.0124   0.09557       428       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e260.jpg
+                 all          16         912      0.0861       0.116      0.0791      0.0286
+   261/349     6.39G   0.03706   0.03481   0.01277   0.08464       956       640
+   261/349     6.39G   0.03284     0.045   0.01336   0.09121       726       640
+   261/349     6.39G    0.0316   0.04506   0.01364    0.0903       482       640
+   261/349     6.39G    0.0316   0.04506   0.01364    0.0903       482       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0858        0.12      0.0809      0.0279
+   262/349     6.39G   0.02942   0.04723   0.01385    0.0905       551       640
+   262/349     6.39G   0.02974   0.04777   0.01329   0.09079       580       640
+   262/349     6.39G   0.02974   0.04777   0.01329   0.09079       580       640
+targ: (912, 5)
+   262/349     6.39G   0.03034   0.05404   0.01321   0.09758       572       640
+   262/349     6.39G   0.03034   0.05404   0.01321   0.09758       572       640
+runs/train/yolor_p644/conf/conf_e262.jpg
+                 all          16         912      0.0811       0.123      0.0795      0.0286
+   263/349     6.39G    0.0312   0.04425   0.01352   0.08897       683       640
+   263/349     6.39G    0.0292    0.0477   0.01507   0.09196       676       640
+   263/349     6.39G   0.02962   0.04997   0.01468   0.09426       790       640
+   263/349     6.39G   0.02962   0.04997   0.01468   0.09426       790       640
+targ: (912, 5)
+   263/349     6.39G   0.02936   0.05012   0.01442    0.0939       366       640
+   263/349     6.39G   0.02936   0.05012   0.01442    0.0939       366       640
+runs/train/yolor_p644/conf/conf_e263.jpg
+                 all          16         912      0.0782       0.123       0.078      0.0287
+   264/349     6.39G   0.02726   0.04975   0.01131   0.08832       776       640
+   264/349     6.39G   0.02766   0.04676   0.01155   0.08596       537       640
+   264/349     6.39G   0.02766   0.04676   0.01155   0.08596       537       640
+targ: (912, 5)
+   264/349     6.39G   0.02762   0.04535   0.01305   0.08602       287       640
+   264/349     6.39G   0.02762   0.04535   0.01305   0.08602       287       640
+runs/train/yolor_p644/conf/conf_e264.jpg
+                 all          16         912      0.0742        0.12      0.0759       0.027
+   265/349     6.39G   0.03075   0.05148   0.01371   0.09594       714       640
+   265/349     6.39G   0.03073   0.05313   0.01358   0.09743       642       640
+   265/349     6.39G   0.03051    0.0561   0.01326   0.09987       462       640
+   265/349     6.39G   0.03051    0.0561   0.01326   0.09987       462       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e265.jpg
+                 all          16         912      0.0672       0.124      0.0731      0.0249
+   266/349     6.39G   0.02651   0.03811   0.01013   0.07475       574       640
+   266/349     6.39G   0.02965   0.04965   0.01365   0.09295       738       640
+   266/349     6.39G   0.02964   0.05429   0.01299   0.09691       438       640
+   266/349     6.39G   0.02964   0.05429   0.01299   0.09691       438       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e266.jpg
+                 all          16         912      0.0654       0.134      0.0778      0.0294
+New overall best!
+   267/349     6.39G   0.02737   0.04706    0.0145   0.08893       492       640
+   267/349     6.39G   0.02787   0.04863   0.01441   0.09092       539       640
+   267/349     6.39G   0.02787   0.04863   0.01441   0.09092       539       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e267.jpg
+                 all          16         912      0.0674       0.139      0.0778      0.0299
+New overall best!
+   268/349     6.39G   0.02869   0.05626   0.01518    0.1001       401       640
+   268/349     6.39G   0.02869   0.05626   0.01518    0.1001       401       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0663       0.133      0.0755      0.0281
+   269/349     6.39G   0.03114   0.05012   0.01519   0.09644       868       640
+   269/349     6.39G   0.03036   0.04764   0.01456   0.09257       230       640
+   269/349     6.39G   0.03036   0.04764   0.01456   0.09257       230       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e269.jpg
+                 all          16         912      0.0705       0.133      0.0778      0.0301
+New overall best!
+   270/349     6.39G   0.02916   0.04917   0.01319   0.09153       660       640
+   270/349     6.39G    0.0295   0.04986   0.01327   0.09263       398       640
+   270/349     6.39G    0.0295   0.04986   0.01327   0.09263       398       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e270.jpg
+                 all          16         912       0.075       0.131      0.0794      0.0306
+New overall best!
+   271/349     6.39G   0.04001   0.06332   0.01648    0.1198       712       640
+   271/349     6.39G   0.03716    0.0599   0.01583    0.1129       582       640
+   271/349     6.39G   0.03716    0.0599   0.01583    0.1129       582       640
+targ: (912, 5)
+pred: (4800, 6)
+   271/349     6.39G   0.03485   0.06056   0.01487    0.1103       392       640
+   271/349     6.39G   0.03485   0.06056   0.01487    0.1103       392       640
+                 all          16         912      0.0752        0.13      0.0817      0.0311
+New overall best!
+   272/349     6.39G   0.02697   0.05554   0.01357   0.09609       916       640
+   272/349     6.39G   0.02697   0.05554   0.01357   0.09609       916       640
+targ: (912, 5)
+pred: (4800, 6)
+   272/349     6.39G   0.02745   0.05683   0.01347   0.09774       257       640
+   272/349     6.39G   0.02745   0.05683   0.01347   0.09774       257       640
+                 all          16         912      0.0764       0.136      0.0825      0.0308
+   273/349     6.39G   0.02876   0.05576   0.01898    0.1035       480       640
+   273/349     6.39G   0.02839   0.04777   0.01423    0.0904       347       640
+   273/349     6.39G   0.02839   0.04777   0.01423    0.0904       347       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e273.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   274/349     6.39G   0.02814   0.04202   0.01161   0.08178       719       640
+   274/349     6.39G   0.03652   0.04918   0.01361   0.09932       566       640
+   274/349     6.39G   0.03652   0.04918   0.01361   0.09932       566       640
+targ: (912, 5)
+   274/349     6.39G   0.03431   0.04857   0.01303   0.09591       229       640
+   274/349     6.39G   0.03431   0.04857   0.01303   0.09591       229       640
+runs/train/yolor_p644/conf/conf_e274.jpg
+                 all          16         912      0.0648       0.143      0.0825      0.0313
+New overall best!
+   275/349     6.39G   0.02762   0.03754   0.01948   0.08465       607       640
+   275/349     6.39G   0.02989   0.05095   0.01505   0.09589       850       640
+   275/349     6.39G   0.02988   0.05083   0.01486   0.09557       616       640
+   275/349     6.39G   0.02988   0.05083   0.01486   0.09557       616       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e275.jpg
+                 all          16         912      0.0644       0.139       0.079      0.0302
+   276/349     6.39G   0.02605   0.04696   0.01084   0.08386       699       640
+   276/349     6.39G    0.0274   0.04742   0.01233   0.08715       800       640
+   276/349     6.39G    0.0274   0.04742   0.01233   0.08715       800       640
+targ: (912, 5)
+   276/349     6.39G   0.02799   0.04814   0.01205   0.08818       359       640
+   276/349     6.39G   0.02799   0.04814   0.01205   0.08818       359       640
+runs/train/yolor_p644/conf/conf_e276.jpg
+                 all          16         912      0.0695       0.132      0.0793      0.0315
+   277/349     6.39G   0.02871   0.04811    0.0127   0.08952      1034       640
+   277/349     6.39G   0.02854    0.0487   0.01398   0.09122       410       640
+   277/349     6.39G   0.02854    0.0487   0.01398   0.09122       410       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e277.jpg
+                 all          16         912      0.0803       0.124       0.081      0.0327
+New overall best!
+   278/349     6.39G   0.02699   0.05773   0.01456   0.09928       598       640
+   278/349     6.39G    0.0277   0.05328   0.01443   0.09541       595       640
+   278/349     6.39G    0.0277   0.05328   0.01443   0.09541       595       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e278.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+New overall best!
+   279/349     6.39G   0.02729   0.04672   0.01335   0.08736       785       640
+   279/349     6.39G   0.02764   0.04592   0.01346   0.08701       959       640
+   279/349     6.39G   0.02859   0.04596   0.01336   0.08791       514       640
+   279/349     6.39G   0.02859   0.04596   0.01336   0.08791       514       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e279.jpg
+                 all          16         912      0.0894       0.125      0.0884      0.0348
+New overall best!
+   280/349     6.39G   0.02761   0.04657   0.01386   0.08803       467       640
+   280/349     6.39G   0.02761   0.04657   0.01386   0.08803       467       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e280.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   281/349     6.39G   0.02707   0.05083   0.01412   0.09202       630       640
+   281/349     6.39G    0.0291    0.0513    0.0156   0.09601       806       640
+   281/349     6.39G   0.02901   0.05484   0.01445   0.09831       426       640
+   281/349     6.39G   0.02901   0.05484   0.01445   0.09831       426       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e281.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   282/349     6.39G   0.02793   0.04821   0.01714   0.09329       738       640
+   282/349     6.39G   0.02911   0.04789   0.01691   0.09391       595       640
+   282/349     6.39G   0.02911   0.04789   0.01691   0.09391       595       640
+targ: (912, 5)
+pred: (4800, 6)
+   282/349     6.39G   0.02904   0.04843   0.01565   0.09312       504       640
+   282/349     6.39G   0.02904   0.04843   0.01565   0.09312       504       640
+                 all          16         912      0.0784       0.128       0.086      0.0339
+   283/349     6.39G   0.03589   0.05293   0.01474    0.1036      1126       640
+   283/349     6.39G   0.03419   0.05025   0.01541   0.09984       778       640
+   283/349     6.39G   0.03298   0.04864   0.01471   0.09634       379       640
+   283/349     6.39G   0.03298   0.04864   0.01471   0.09634       379       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e283.jpg
+                 all          16         912      0.0749       0.128      0.0867      0.0336
+   284/349     6.39G   0.03162   0.05517    0.0145    0.1013       705       640
+   284/349     6.39G   0.03075   0.05894    0.0137    0.1034       737       640
+   284/349     6.39G   0.02971   0.05516   0.01362   0.09848       429       640
+   284/349     6.39G   0.02971   0.05516   0.01362   0.09848       429       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e284.jpg
+                 all          16         912      0.0694       0.133      0.0879      0.0339
+   285/349     6.39G   0.02955   0.05199   0.01391   0.09545      1012       640
+   285/349     6.39G   0.02827   0.04523   0.01385   0.08735       256       640
+   285/349     6.39G   0.02827   0.04523   0.01385   0.08735       256       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e285.jpg
+                 all          16         912       0.064        0.14      0.0862      0.0338
+   286/349     6.39G   0.02626   0.05117   0.01404   0.09147       639       640
+   286/349     6.39G   0.02815   0.05038   0.01412   0.09264       665       640
+   286/349     6.39G   0.02775   0.04563   0.01396   0.08735       431       640
+   286/349     6.39G   0.02775   0.04563   0.01396   0.08735       431       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e286.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   287/349     6.39G   0.02733   0.04861   0.01171   0.08765       713       640
+   287/349     6.39G   0.02733   0.04861   0.01171   0.08765       713       640
+targ: (912, 5)
+pred: (4800, 6)
+   287/349     6.39G   0.02751   0.05392   0.01146   0.09289       490       640
+   287/349     6.39G   0.02751   0.05392   0.01146   0.09289       490       640
+                 all          16         912      0.0598       0.146      0.0828      0.0331
+   288/349     6.39G   0.02905    0.0481   0.01154   0.08869       760       640
+   288/349     6.39G   0.02851   0.05449   0.01253   0.09553       836       640
+   288/349     6.39G   0.02821   0.05177   0.01374   0.09372       708       640
+   288/349     6.39G   0.02821   0.05177   0.01374   0.09372       708       640
+targ: (912, 5)
+pred: (4800, 6)
+   288/349     6.39G   0.02896    0.0486   0.01323    0.0908       446       640
+   288/349     6.39G   0.02896    0.0486   0.01323    0.0908       446       640
+                 all          16         912      0.0681       0.144      0.0856      0.0305
+   289/349     6.39G   0.02912   0.04907   0.01504   0.09323       676       640
+   289/349     6.39G   0.02912   0.04907   0.01504   0.09323       676       640
+targ: (912, 5)
+   289/349     6.39G    0.0276    0.0484   0.01374   0.08974       424       640
+   289/349     6.39G    0.0276    0.0484   0.01374   0.08974       424       640
+runs/train/yolor_p644/conf/conf_e289.jpg
+                 all          16         912      0.0771       0.138      0.0866       0.031
+   290/349     6.39G   0.02931    0.0365   0.01193   0.07774       577       640
+   290/349     6.39G    0.0282   0.05177   0.01412   0.09408       407       640
+   290/349     6.39G    0.0282   0.05177   0.01412   0.09408       407       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e290.jpg
+                 all          16         912      0.0888       0.133      0.0887      0.0336
+   291/349     6.39G   0.02625   0.06649    0.0117    0.1044       730       640
+   291/349     6.39G   0.02808   0.05049   0.01519   0.09376       520       640
+   291/349     6.39G   0.02808   0.05049   0.01519   0.09376       520       640
+targ: (912, 5)
+   291/349     6.39G   0.02831   0.05158   0.01431    0.0942       430       640
+   291/349     6.39G   0.02831   0.05158   0.01431    0.0942       430       640
+runs/train/yolor_p644/conf/conf_e291.jpg
+                 all          16         912      0.0916       0.131        0.09      0.0342
+   292/349     6.39G   0.02944   0.04355   0.01159   0.08458       619       640
+   292/349     6.39G   0.02881   0.04468   0.01189   0.08539       703       640
+   292/349     6.39G   0.02881   0.04468   0.01189   0.08539       703       640
+targ: (912, 5)
+pred: (4800, 6)
+   292/349     6.39G   0.02922   0.04524   0.01234   0.08679       420       640
+   292/349     6.39G   0.02922   0.04524   0.01234   0.08679       420       640
+                 all          16         912      0.0888       0.124      0.0845      0.0307
+   293/349     6.39G   0.02901   0.05163   0.01263   0.09327       718       640
+   293/349     6.39G   0.02854    0.0472   0.01372   0.08945       478       640
+   293/349     6.39G   0.02854    0.0472   0.01372   0.08945       478       640
+targ: (912, 5)
+pred: (4800, 6)
+   293/349     6.39G   0.02861   0.05146   0.01326   0.09332       458       640
+   293/349     6.39G   0.02861   0.05146   0.01326   0.09332       458       640
+                 all          16         912      0.0856       0.124      0.0791      0.0275
+   294/349     6.39G   0.03226   0.04137   0.01171   0.08533       465       640
+   294/349     6.39G   0.03117   0.05409   0.01155   0.09681       779       640
+   294/349     6.39G   0.03117   0.05409   0.01155   0.09681       779       640
+targ: (912, 5)
+   294/349     6.39G   0.03137   0.05611   0.01254       0.1       483       640
+   294/349     6.39G   0.03137   0.05611   0.01254       0.1       483       640
+runs/train/yolor_p644/conf/conf_e294.jpg
+                 all          16         912      0.0905       0.126      0.0904      0.0319
+   295/349     6.39G   0.02888   0.04115   0.01234   0.08237       645       640
+   295/349     6.39G   0.02875   0.04525   0.01252   0.08652       723       640
+   295/349     6.39G   0.02875   0.04525   0.01252   0.08652       723       640
+targ: (912, 5)
+   295/349     6.39G   0.02866   0.04836    0.0123   0.08932       486       640
+   295/349     6.39G   0.02866   0.04836    0.0123   0.08932       486       640
+runs/train/yolor_p644/conf/conf_e295.jpg
+                 all          16         912       0.088       0.124      0.0895      0.0322
+   296/349     6.39G   0.02808   0.04412   0.01512   0.08732       529       640
+   296/349     6.39G   0.02798   0.04658   0.01409   0.08864       683       640
+   296/349     6.39G   0.02798   0.04658   0.01409   0.08864       683       640
+targ: (912, 5)
+   296/349     6.39G   0.02781   0.04644   0.01335    0.0876       405       640
+   296/349     6.39G   0.02781   0.04644   0.01335    0.0876       405       640
+runs/train/yolor_p644/conf/conf_e296.jpg
+                 all          16         912       0.084       0.125      0.0864      0.0308
+   297/349     6.39G   0.02949   0.04736   0.01462   0.09146       777       640
+   297/349     6.39G   0.02913   0.05029   0.01445   0.09387       375       640
+   297/349     6.39G   0.02913   0.05029   0.01445   0.09387       375       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912       0.088       0.123      0.0894      0.0323
+   298/349     6.39G   0.02779   0.04598   0.01261   0.08638       586       640
+   298/349     6.39G   0.02902   0.05067   0.01184   0.09153       370       640
+   298/349     6.39G   0.02902   0.05067   0.01184   0.09153       370       640
+targ: (912, 5)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+runs/train/yolor_p644/conf/conf_e298.jpg
+                 all          16         912      0.0902       0.125      0.0907      0.0345
+   299/349     6.39G    0.0291   0.03959   0.01211    0.0808       423       640
+   299/349     6.39G    0.0282   0.04284   0.01431   0.08535       463       640
+   299/349     6.39G    0.0282   0.04284   0.01431   0.08535       463       640
+targ: (912, 5)
+   299/349     6.39G   0.02798   0.04042   0.01359   0.08199       239       640
+   299/349     6.39G   0.02798   0.04042   0.01359   0.08199       239       640
+runs/train/yolor_p644/conf/conf_e299.jpg
+                 all          16         912       0.084       0.132      0.0901      0.0341
+   300/349     6.39G   0.02558    0.0436   0.01306   0.08224       531       640
+   300/349     6.39G   0.02558    0.0436   0.01306   0.08224       531       640
+targ: (912, 5)
+   300/349     6.39G   0.02734   0.04391   0.01352   0.08476       482       640
+   300/349     6.39G   0.02734   0.04391   0.01352   0.08476       482       640
+runs/train/yolor_p644/conf/conf_e300.jpg
+                 all          16         912      0.0774       0.142      0.0902       0.034
+   301/349     6.39G    0.0297   0.04965   0.01244   0.09178       689       640
+   301/349     6.39G   0.02867   0.04683   0.01251   0.08802       329       640
+   301/349     6.39G   0.02867   0.04683   0.01251   0.08802       329       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e301.jpg
+                 all          16         912       0.073       0.147      0.0903       0.035
+New overall best!
+   302/349     6.39G   0.02782   0.05065   0.01399   0.09247       397       640
+   302/349     6.39G   0.02782   0.05065   0.01399   0.09247       397       640
+targ: (912, 5)
+pred: (4800, 6)
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+                 all          16         912      0.0687       0.153      0.0902      0.0351
+New overall best!
+   303/349     6.39G   0.02704   0.05159   0.01171   0.09034      1107       640
+   303/349     6.39G   0.02704   0.05159   0.01171   0.09034      1107       640
+targ: (912, 5)
+   303/349     6.39G   0.02859   0.04924    0.0126   0.09044       257       640
+   303/349     6.39G   0.02859   0.04924    0.0126   0.09044       257       640
+runs/train/yolor_p644/conf/conf_e303.jpg
+                 all          16         912      0.0644       0.156      0.0881      0.0343
+   304/349     6.39G   0.02993   0.06865   0.01484    0.1134       806       640
+   304/349     6.39G   0.02993   0.06865   0.01484    0.1134       806       640
+targ: (912, 5)
+   304/349     6.39G   0.02997   0.06501   0.01443    0.1094       499       640
+   304/349     6.39G   0.02997   0.06501   0.01443    0.1094       499       640
+runs/train/yolor_p644/conf/conf_e304.jpg
+                 all          16         912      0.0575       0.157      0.0874      0.0327
+   305/349     6.39G   0.02684   0.04827   0.01215   0.08726       497       640
+   305/349     6.39G   0.02684   0.04827   0.01215   0.08726       497       640
+targ: (912, 5)
+   305/349     6.39G   0.02797   0.04464   0.01355   0.08616       364       640
+   305/349     6.39G   0.02797   0.04464   0.01355   0.08616       364       640
+runs/train/yolor_p644/conf/conf_e305.jpg
+                 all          16         912       0.053       0.159      0.0872      0.0327
+   306/349     6.39G   0.02833   0.05243   0.01446   0.09521       579       640
+   306/349     6.39G   0.02833   0.05243   0.01446   0.09521       579       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e306.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   307/349     6.39G   0.02756   0.05061   0.01272   0.09089       679       640
+   307/349     6.39G   0.02756   0.05061   0.01272   0.09089       679       640
+targ: (912, 5)
+   307/349     6.39G   0.02778   0.05322   0.01246   0.09346       449       640
+   307/349     6.39G   0.02778   0.05322   0.01246   0.09346       449       640
+runs/train/yolor_p644/conf/conf_e307.jpg
+                 all          16         912      0.0544       0.173      0.0903      0.0344
+   308/349     6.39G    0.0278   0.04837   0.01305   0.08922       762       640
+   308/349     6.39G   0.02715   0.05072   0.01307   0.09095       369       640
+   308/349     6.39G   0.02715   0.05072   0.01307   0.09095       369       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e308.jpg
+                 all          16         912      0.0579       0.169      0.0907      0.0349
+   309/349     6.39G   0.02805   0.06218   0.01499    0.1052       745       640
+   309/349     6.39G    0.0281   0.05881   0.01411     0.101       659       640
+   309/349     6.39G    0.0281   0.05881   0.01411     0.101       659       640
+targ: (912, 5)
+pred: (4800, 6)
+   309/349     6.39G   0.02802    0.0527   0.01384   0.09456       353       640
+   309/349     6.39G   0.02802    0.0527   0.01384   0.09456       353       640
+                 all          16         912      0.0671       0.155      0.0934      0.0365
+New overall best!
+   310/349     6.39G   0.02999   0.04685   0.01241   0.08925       686       640
+   310/349     6.39G   0.02999   0.04685   0.01241   0.08925       686       640
+targ: (912, 5)
+pred: (4800, 6)
+   310/349     6.39G   0.03018   0.04665    0.0127   0.08953       423       640
+   310/349     6.39G   0.03018   0.04665    0.0127   0.08953       423       640
+                 all          16         912       0.073       0.144      0.0882      0.0338
+   311/349     6.39G   0.02957   0.04933   0.01153   0.09043       662       640
+   311/349     6.39G   0.02893   0.04699    0.0126   0.08852       570       640
+   311/349     6.39G   0.02946   0.04724   0.01239   0.08909       365       640
+   311/349     6.39G   0.02946   0.04724   0.01239   0.08909       365       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e311.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   312/349     6.39G   0.03001   0.04679   0.01436   0.09116       774       640
+   312/349     6.39G    0.0296   0.04482   0.01392   0.08834       801       640
+   312/349     6.39G   0.02988   0.04556   0.01267   0.08811       319       640
+   312/349     6.39G   0.02988   0.04556   0.01267   0.08811       319       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e312.jpg
+                 all          16         912       0.071       0.142       0.087      0.0323
+   313/349     6.39G   0.03093   0.03682   0.01189   0.07965       508       640
+   313/349     6.39G   0.02958   0.04368   0.01368   0.08693       535       640
+   313/349     6.39G   0.02961   0.04736   0.01355   0.09052       484       640
+   313/349     6.39G   0.02961   0.04736   0.01355   0.09052       484       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e313.jpg
+                 all          16         912      0.0776       0.137      0.0869      0.0323
+   314/349     6.39G   0.02984   0.05238   0.01111   0.09333       664       640
+   314/349     6.39G   0.02912   0.04693   0.01186   0.08791       509       640
+   314/349     6.39G   0.02912   0.04693   0.01186   0.08791       509       640
+targ: (912, 5)
+pred: (4800, 6)
+   314/349     6.39G   0.02891   0.05622   0.01247    0.0976       472       640
+   314/349     6.39G   0.02891   0.05622   0.01247    0.0976       472       640
+                 all          16         912       0.079       0.137      0.0886      0.0341
+   315/349     6.39G   0.02917   0.04586   0.01418   0.08921       606       640
+   315/349     6.39G   0.02878   0.04732   0.01391   0.09001       343       640
+   315/349     6.39G   0.02878   0.04732   0.01391   0.09001       343       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e315.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   316/349     6.39G   0.02717   0.04926   0.01213   0.08856       562       640
+   316/349     6.39G   0.02826   0.05054   0.01381   0.09261       506       640
+   316/349     6.39G   0.02826   0.05054   0.01381   0.09261       506       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e316.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   317/349     6.39G   0.02858   0.05444   0.01074   0.09376       633       640
+   317/349     6.39G    0.0272   0.05413   0.01338   0.09471       594       640
+   317/349     6.39G   0.02899   0.05048   0.01185   0.09132       570       640
+   317/349     6.39G   0.02899   0.05048   0.01185   0.09132       570       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e317.jpg
+   317/349     6.39G   0.02885    0.0488   0.01162   0.08927       335       640
+   317/349     6.39G   0.02885    0.0488   0.01162   0.08927       335       640
+   318/349     6.39G   0.02667   0.04533    0.0184    0.0904       412       640
+   318/349     6.39G   0.02805   0.04908   0.01682   0.09395       371       640
+   318/349     6.39G   0.02805   0.04908   0.01682   0.09395       371       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e318.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   319/349     6.39G   0.02777    0.0442   0.01202   0.08398       761       640
+   319/349     6.39G   0.02777    0.0442   0.01202   0.08398       761       640
+targ: (912, 5)
+   319/349     6.39G   0.02806   0.04747   0.01277    0.0883       625       640
+   319/349     6.39G   0.02806   0.04747   0.01277    0.0883       625       640
+runs/train/yolor_p644/conf/conf_e319.jpg
+                 all          16         912      0.0679       0.135      0.0823      0.0325
+   320/349     6.39G   0.02877   0.05383    0.0116   0.09419       787       640
+   320/349     6.39G   0.02885   0.05062   0.01176   0.09123       747       640
+   320/349     6.39G   0.02885   0.05062   0.01176   0.09123       747       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e320.jpg
+   320/349     6.39G   0.02771   0.04681   0.01349   0.08801       489       640
+   320/349     6.39G   0.02771   0.04681   0.01349   0.08801       489       640
+   321/349     6.39G   0.03037   0.05277   0.01359   0.09674       807       640
+   321/349     6.39G   0.03023   0.05457    0.0145    0.0993       664       640
+   321/349     6.39G   0.03023   0.05457    0.0145    0.0993       664       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e321.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   322/349     6.39G   0.02907   0.03763   0.01104   0.07774       600       640
+   322/349     6.39G    0.0287   0.04659   0.01228   0.08757       372       640
+   322/349     6.39G    0.0287   0.04659   0.01228   0.08757       372       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e322.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   323/349     6.39G   0.02686   0.04777   0.01302   0.08765       704       640
+   323/349     6.39G   0.02686   0.04777   0.01302   0.08765       704       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e323.jpg
+   323/349     6.39G   0.02742    0.0455   0.01241   0.08534       285       640
+   323/349     6.39G   0.02742    0.0455   0.01241   0.08534       285       640
+   324/349     6.39G   0.02833   0.05061   0.01263   0.09157       597       640
+   324/349     6.39G   0.02833   0.05061   0.01263   0.09157       597       640
+targ: (912, 5)
+pred: (4800, 6)
+   324/349     6.39G   0.02831   0.04815   0.01237   0.08883       379       640
+   324/349     6.39G   0.02831   0.04815   0.01237   0.08883       379       640
+                 all          16         912      0.0715       0.119      0.0821      0.0321
+   325/349     6.39G   0.02851   0.04618   0.01284   0.08753      1048       640
+   325/349     6.39G   0.02933   0.04973   0.01421   0.09326       772       640
+   325/349     6.39G   0.02933   0.04973   0.01421   0.09326       772       640
+targ: (912, 5)
+pred: (4800, 6)
+   325/349     6.39G   0.02884   0.05334   0.01335   0.09553       444       640
+   325/349     6.39G   0.02884   0.05334   0.01335   0.09553       444       640
+                 all          16         912      0.0737       0.117      0.0823      0.0311
+   326/349     6.39G   0.02773   0.04079   0.01453   0.08305       842       640
+   326/349     6.39G   0.02812   0.04232   0.01381   0.08425       708       640
+   326/349     6.39G   0.02812   0.04232   0.01381   0.08425       708       640
+targ: (912, 5)
+pred: (4800, 6)
+   326/349     6.39G   0.02805   0.04536    0.0134   0.08681       538       640
+   326/349     6.39G   0.02805   0.04536    0.0134   0.08681       538       640
+                 all          16         912        0.08       0.121      0.0856      0.0337
+   327/349     6.39G   0.02762    0.0534    0.0125   0.09352       978       640
+   327/349     6.39G   0.02727   0.04889   0.01476   0.09092       358       640
+   327/349     6.39G   0.02727   0.04889   0.01476   0.09092       358       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e327.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   328/349     6.39G   0.03337   0.05252   0.01542    0.1013       730       640
+   328/349     6.39G   0.03337   0.05252   0.01542    0.1013       730       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e328.jpg
+   328/349     6.39G   0.03238    0.0498   0.01688   0.09906       453       640
+   328/349     6.39G   0.03238    0.0498   0.01688   0.09906       453       640
+   329/349     6.39G     0.028    0.0514    0.0135    0.0929       408       640
+   329/349     6.39G     0.028    0.0514    0.0135    0.0929       408       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e329.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   330/349     6.39G   0.02564   0.04616  0.009623   0.08143       615       640
+   330/349     6.39G   0.02821   0.04661   0.01158   0.08641       498       640
+   330/349     6.39G   0.02821   0.04661   0.01158   0.08641       498       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e330.jpg
+   330/349     6.39G   0.02815   0.04722   0.01201   0.08738       311       640
+   330/349     6.39G   0.02815   0.04722   0.01201   0.08738       311       640
+   331/349     6.39G   0.02679   0.04189   0.01672   0.08541       428       640
+   331/349     6.39G   0.02759    0.0437   0.01424   0.08553       647       640
+   331/349     6.39G    0.0277   0.04383   0.01353   0.08507       517       640
+   331/349     6.39G    0.0277   0.04383   0.01353   0.08507       517       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e331.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   332/349     6.39G   0.02708   0.06094   0.01245    0.1005       757       640
+   332/349     6.39G   0.02705   0.05439   0.01186    0.0933       515       640
+   332/349     6.39G   0.02758   0.04977   0.01212   0.08946       588       640
+   332/349     6.39G   0.02758   0.04977   0.01212   0.08946       588       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e332.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   333/349     6.39G   0.02556   0.05724   0.01206   0.09486       499       640
+   333/349     6.39G   0.02607   0.05667   0.01312   0.09586       492       640
+   333/349     6.39G   0.02607   0.05667   0.01312   0.09586       492       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e333.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   334/349     6.39G   0.02554   0.04817   0.01638   0.09009       586       640
+   334/349     6.39G   0.02674   0.04875    0.0142   0.08968       565       640
+   334/349     6.39G   0.02674   0.04875    0.0142   0.08968       565       640
+targ: (912, 5)
+pred: (4800, 6)
+   334/349     6.39G   0.02695   0.05073   0.01472    0.0924       374       640
+   334/349     6.39G   0.02695   0.05073   0.01472    0.0924       374       640
+                 all          16         912      0.0775       0.141      0.0905      0.0351
+   335/349     6.39G   0.02885   0.04419    0.0147   0.08774       752       640
+   335/349     6.39G   0.02825   0.04684   0.01381   0.08889       834       640
+   335/349     6.39G   0.02825   0.04684   0.01381   0.08889       834       640
+targ: (912, 5)
+   335/349     6.39G    0.0288   0.04535   0.01507   0.08922       415       640
+   335/349     6.39G    0.0288   0.04535   0.01507   0.08922       415       640
+runs/train/yolor_p644/conf/conf_e335.jpg
+                 all          16         912      0.0758       0.143      0.0907      0.0341
+   336/349     6.39G   0.02929   0.06023   0.01196    0.1015       978       640
+   336/349     6.39G   0.02964   0.05698   0.01356    0.1002       872       640
+   336/349     6.39G   0.02964   0.05698   0.01356    0.1002       872       640
+targ: (912, 5)
+pred: (4800, 6)
+   336/349     6.39G   0.02959   0.05962   0.01276     0.102       450       640
+   336/349     6.39G   0.02959   0.05962   0.01276     0.102       450       640
+                 all          16         912      0.0693       0.142        0.09      0.0324
+   337/349     6.39G   0.02847   0.05134   0.01144   0.09125       579       640
+   337/349     6.39G    0.0288   0.05567   0.01266   0.09713       831       640
+   337/349     6.39G    0.0288   0.05567   0.01266   0.09713       831       640
+targ: (912, 5)
+   337/349     6.39G   0.02931   0.05173   0.01259   0.09364       471       640
+   337/349     6.39G   0.02931   0.05173   0.01259   0.09364       471       640
+runs/train/yolor_p644/conf/conf_e337.jpg
+                 all          16         912      0.0711       0.148      0.0928      0.0337
+   338/349     6.39G   0.02424   0.04421   0.01132   0.07976       535       640
+   338/349     6.39G   0.02658   0.04718   0.01178   0.08554       584       640
+   338/349     6.39G   0.02658   0.04718   0.01178   0.08554       584       640
+targ: (912, 5)
+pred: (4800, 6)
+   338/349     6.39G   0.02647   0.04463   0.01279   0.08389       261       640
+   338/349     6.39G   0.02647   0.04463   0.01279   0.08389       261       640
+                 all          16         912      0.0749       0.149      0.0959      0.0359
+   339/349     6.39G   0.02821   0.05155   0.01049   0.09026       947       640
+   339/349     6.39G   0.03767   0.04502   0.01465   0.09734       665       640
+   339/349     6.39G   0.03437   0.04788   0.01509   0.09734       611       640
+   339/349     6.39G   0.03437   0.04788   0.01509   0.09734       611       640
+targ: (912, 5)
+pred: (4800, 6)
+   339/349     6.39G   0.03258   0.04917   0.01412   0.09587       489       640
+   339/349     6.39G   0.03258   0.04917   0.01412   0.09587       489       640
+                 all          16         912      0.0709       0.155      0.0954      0.0363
+New overall best!
+   340/349     6.39G   0.02619   0.05017   0.01342   0.08977       830       640
+   340/349     6.39G   0.02709   0.04779   0.01345   0.08833       356       640
+   340/349     6.39G   0.02709   0.04779   0.01345   0.08833       356       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e340.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   341/349     6.39G   0.03093   0.04182  0.009518   0.08228       829       640
+   341/349     6.39G   0.04691   0.05589    0.0125    0.1153       930       640
+   341/349     6.39G   0.03603   0.05054   0.01227   0.09884       324       640
+   341/349     6.39G   0.03603   0.05054   0.01227   0.09884       324       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e341.jpg
+  0%|                                                     | 0/5 [00:00<?, ?it/s]
+   342/349     6.39G   0.02514   0.03953   0.01086   0.07552       663       640
+   342/349     6.39G   0.02588   0.04588   0.01204   0.08379       581       640
+   342/349     6.39G   0.02588   0.04588   0.01204   0.08379       581       640
+targ: (912, 5)
+pred: (4800, 6)
+   342/349     6.39G   0.02752   0.05348    0.0124   0.09339       684       640
+   342/349     6.39G   0.02752   0.05348    0.0124   0.09339       684       640
+                 all          16         912      0.0719       0.163      0.0957      0.0349
+   343/349     6.39G   0.02902   0.04746   0.01215   0.08862       667       640
+   343/349     6.39G   0.02882   0.05669   0.01232   0.09783       521       640
+   343/349     6.39G   0.02882   0.05669   0.01232   0.09783       521       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e343.jpg
+               Class      Images     Targets           P           R      mAP@.5
+               Class      Images     Targets           P           R      mAP@.5
+   344/349     6.39G   0.02593   0.05405   0.01328   0.09327       659       640
+   344/349     6.39G   0.02577   0.05188   0.01308   0.09073       402       640
+   344/349     6.39G   0.02577   0.05188   0.01308   0.09073       402       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e344.jpg
+                 all          16         912      0.0859       0.159      0.0986      0.0366
+New overall best!
+   345/349     6.39G   0.02644    0.0428   0.01437   0.08361       216       640
+   345/349     6.39G   0.02644    0.0428   0.01437   0.08361       216       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e345.jpg
+                 all          16         912       0.087       0.153      0.0992      0.0377
+New overall best!
+   345/349     6.39G   0.02644    0.0428   0.01437   0.08361       216       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e346.jpg
+   346/349     6.39G   0.02736   0.04582   0.01171   0.08489       409       640
+   346/349     6.39G   0.02736   0.04582   0.01171   0.08489       409       640
+New overall best!
+   346/349     6.39G   0.02736   0.04582   0.01171   0.08489       409       640
+targ: (912, 5)
+pred: (4800, 6)
+   347/349     6.39G   0.02796   0.05099   0.01404     0.093       402       640
+   347/349     6.39G   0.02796   0.05099   0.01404     0.093       402       640
+                 all          16         912      0.0973       0.144       0.102      0.0386
+New overall best!
+   347/349     6.39G   0.02796   0.05099   0.01404     0.093       402       640
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p644/conf/conf_e348.jpg
+   348/349     6.39G   0.03494   0.05422   0.01432    0.1035       454       640
+   348/349     6.39G   0.03494   0.05422   0.01432    0.1035       454       640
+   349/349     6.39G   0.02792   0.04387   0.01352   0.08531       640       640
+  File "/scratch/WVG/yolor/test.py", line 247, in <listcomp>       469       640
+  File "/scratch/WVG/yolor/test.py", line 247, in <listcomp>       469       640
+  File "/scratch/WVG/yolor/test.py", line 247, in <listcomp>       469       640

@@ -1,0 +1,11 @@
+
+
+
+Scanning images: 100%|████████████████████| 5556/5556 [00:04<00:00, 1140.35it/s]
+Scanning labels PCB-upright-4/train/labels.cache3 (1645 found, 0 missing, 3911 empty, 0 duplicate, for 5556 images): 5556it [00:00, 28610.48it/s]
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 223, in train
+    assert mlc < nc, 'Label class %g exceeds nc=%g in %s. Possible class labels are 0-%g' % (mlc, nc, opt.data, nc - 1)
+AssertionError: Label class 6 exceeds nc=1 in /scratch/WVG/yolor/PCB-upright-4/data.yaml. Possible class labels are 0-0

@@ -1,0 +1,150 @@
+Scanning labels PCB-upright-18/sliced/train/train.cache3 (5154 found, 0 missing, 0 empty, 0 duplicate, for 5154 images): 5154it [00:00, 9343.36it/s]
+Scanning labels PCB-upright-18/sliced/valid/train.cache3 (1916 found, 0 missing, 0 empty, 0 duplicate, for 1916 images): 1916it [00:00, 5997.24it/s]
+Image sizes 320 train, 320 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p643
+Starting training for 1500 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1341/1499     3.72G  0.006624   0.02068 0.0002969    0.0276        35       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5346, 5)
+pred: (18084, 6)
+runs/train/yolor_p643/conf/conf_e1341.jpg
+                 all    1.92e+03    5.36e+03       0.686       0.622       0.663       0.509
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1342/1499     3.46G  0.006663   0.02124 0.0004029   0.02831        52       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5346, 5)
+pred: (18095, 6)
+runs/train/yolor_p643/conf/conf_e1342.jpg
+                 all    1.92e+03    5.36e+03       0.688       0.625       0.663       0.509
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1343/1499     3.46G  0.006709   0.02091 0.0003234   0.02794        31       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5350, 5)
+pred: (18124, 6)
+runs/train/yolor_p643/conf/conf_e1343.jpg
+                 all    1.92e+03    5.36e+03       0.689       0.626       0.664       0.509
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1344/1499     3.46G  0.006507   0.02038 0.0003252   0.02721        40       320

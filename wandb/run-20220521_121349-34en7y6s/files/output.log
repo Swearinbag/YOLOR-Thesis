@@ -1,0 +1,16 @@
+
+Scanning images: 100%|████████████████████| 7551/7551 [00:02<00:00, 3146.17it/s]
+Scanning labels PCB-upright-27/sliced/train/train.cache3 (7551 found, 0 missing, 0 empty, 0 duplicate, for 7551 images): 7551it [00:00, 8738.65it/s]
+Scanning images: 100%|██████████████████████| 771/771 [00:00<00:00, 1735.57it/s]
+Scanning labels PCB-upright-27/sliced/valid/train.cache3 (771 found, 0 missing, 0 empty, 0 duplicate, for 771 images): 771it [00:00, 7096.56it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 320 train, 320 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p664
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+

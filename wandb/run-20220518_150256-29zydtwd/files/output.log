@@ -1,0 +1,227 @@
+Scanning labels PCB-upright-21/train/labels.cache3 (1206 found, 0 missing, 252 empty, 0 duplicate, for 1458 images): 1458it [00:00, 10759.00it/s]
+Scanning labels PCB-upright-21/valid/labels.cache3 (177 found, 0 missing, 0 empty, 0 duplicate, for 177 images): 177it [00:00, 3429.05it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p645
+Starting training for 1500 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    0/1499     5.81G   0.08791   0.06453   0.05024    0.2027        38       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    1/1499     6.46G   0.07996   0.06328   0.04541    0.1886        20       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    2/1499     6.46G   0.07997   0.06327   0.04286    0.1861        41       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    3/1499     6.46G   0.07956   0.06018   0.03861    0.1784        36       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1057, 5)
+pred: (53100, 6)
+                 all         177    1.06e+03     0.00109    0.000275     0.00716     0.00201
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    4/1499     6.45G   0.07606   0.05236   0.03613    0.1645        42       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1057, 5)
+pred: (53100, 6)
+                 all         177    1.06e+03      0.0263      0.0854      0.0295     0.00698
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    5/1499     6.45G   0.07116   0.05036   0.03531    0.1568        30       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1057, 5)
+pred: (53040, 6)
+                 all         177    1.06e+03      0.0194       0.171      0.0481      0.0124
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    6/1499     6.45G   0.06743   0.04838   0.03416      0.15        30       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1057, 5)
+pred: (53100, 6)
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 443, in train
+    n_epoch=epoch)
+  File "/scratch/WVG/yolor/test.py", line 342, in test
+    saveConfmat(conf_mat,matdir_ex,names)
+  File "/scratch/WVG/yolor/test.py", line 510, in saveConfmat
+    plt.savefig(savefolder, bbox_inches = 'tight')
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/matplotlib/pyplot.py", line 958, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/matplotlib/figure.py", line 3019, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2325, in print_figure
+    **kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 1648, in wrapper
+    return func(*args, **kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/matplotlib/_api/deprecation.py", line 412, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 584, in print_jpg
+    .save(filename_or_obj, format='jpeg', **pil_kwargs))
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/PIL/Image.py", line 2209, in save
+    fp = builtins.open(filename, "w+b")
+NotADirectoryError: [Errno 20] Not a directory: 'runs/train/yolor_p645/conf/conf_e6.jpg/conf_ex_e6.jpg'

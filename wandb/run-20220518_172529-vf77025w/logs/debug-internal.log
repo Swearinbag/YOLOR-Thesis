@@ -1,0 +1,37 @@
+2022-05-18 17:25:30,827 INFO    MainThread:2750528 [internal.py:wandb_internal():93] W&B internal server running at pid: 2750528, started at: 2022-05-18 17:25:30.827058
+2022-05-18 17:25:30,829 INFO    WriterThread:2750528 [datastore.py:open_for_write():75] open: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/run-vf77025w.wandb
+2022-05-18 17:25:30,832 DEBUG   SenderThread:2750528 [sender.py:send():232] send: header
+2022-05-18 17:25:30,832 DEBUG   SenderThread:2750528 [sender.py:send():232] send: run
+2022-05-18 17:25:30,844 INFO    SenderThread:2750528 [sender.py:_maybe_setup_resume():490] checking resume status for None/YOLOR/vf77025w
+2022-05-18 17:25:31,206 DEBUG   HandlerThread:2750528 [handler.py:handle_request():141] handle_request: check_version
+2022-05-18 17:25:31,212 INFO    SenderThread:2750528 [dir_watcher.py:__init__():197] watching files in: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files
+2022-05-18 17:25:31,212 INFO    SenderThread:2750528 [sender.py:_start_run_threads():814] run started: vf77025w with start time 1652887529
+2022-05-18 17:25:31,212 DEBUG   SenderThread:2750528 [sender.py:send():232] send: summary
+2022-05-18 17:25:31,212 INFO    SenderThread:2750528 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-05-18 17:25:31,212 DEBUG   SenderThread:2750528 [sender.py:send_request():246] send_request: check_version
+2022-05-18 17:25:31,253 DEBUG   HandlerThread:2750528 [handler.py:handle_request():141] handle_request: run_start
+2022-05-18 17:25:31,256 DEBUG   HandlerThread:2750528 [meta.py:__init__():35] meta init
+2022-05-18 17:25:31,257 DEBUG   HandlerThread:2750528 [meta.py:__init__():49] meta init done
+2022-05-18 17:25:31,257 DEBUG   HandlerThread:2750528 [meta.py:probe():209] probe
+2022-05-18 17:25:31,263 DEBUG   HandlerThread:2750528 [meta.py:_setup_git():199] setup git
+2022-05-18 17:25:31,282 DEBUG   HandlerThread:2750528 [meta.py:_setup_git():206] setup git done
+2022-05-18 17:25:31,282 DEBUG   HandlerThread:2750528 [meta.py:_save_pip():53] save pip
+2022-05-18 17:25:31,283 DEBUG   HandlerThread:2750528 [meta.py:_save_pip():67] save pip done
+2022-05-18 17:25:31,283 DEBUG   HandlerThread:2750528 [meta.py:_save_conda():74] save conda
+2022-05-18 17:25:32,215 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/requirements.txt
+2022-05-18 17:25:32,215 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/conda-environment.yaml
+2022-05-18 17:25:32,216 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/wandb-summary.json
+2022-05-18 17:25:35,720 DEBUG   HandlerThread:2750528 [meta.py:_save_conda():84] save conda done
+2022-05-18 17:25:35,720 DEBUG   HandlerThread:2750528 [meta.py:probe():247] probe done
+2022-05-18 17:25:35,757 DEBUG   SenderThread:2750528 [sender.py:send():232] send: files
+2022-05-18 17:25:35,758 INFO    SenderThread:2750528 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-05-18 17:25:35,763 DEBUG   HandlerThread:2750528 [handler.py:handle_request():141] handle_request: stop_status
+2022-05-18 17:25:35,764 DEBUG   SenderThread:2750528 [sender.py:send_request():246] send_request: stop_status
+2022-05-18 17:25:35,933 DEBUG   SenderThread:2750528 [sender.py:send():232] send: telemetry
+2022-05-18 17:25:36,217 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/conda-environment.yaml
+2022-05-18 17:25:36,217 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/wandb-metadata.json
+2022-05-18 17:25:36,217 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_created():244] file/dir created: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/output.log
+2022-05-18 17:25:36,392 INFO    Thread-11 :2750528 [upload_job.py:push():132] Uploaded file /tmp/tmpihgnud75wandb/3cm96ho7-wandb-metadata.json
+2022-05-18 17:25:38,217 INFO    Thread-7  :2750528 [dir_watcher.py:_on_file_modified():257] file/dir modified: /scratch/WVG/yolor/wandb/run-20220518_172529-vf77025w/files/output.log
+2022-05-18 17:25:41,879 WARNING MainThread:2750528 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-05-18 17:25:41,909 DEBUG   SenderThread:2750528 [sender.py:send():232] send: telemetry

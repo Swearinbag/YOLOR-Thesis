@@ -1,0 +1,51 @@
+2022-05-20 22:07:45,246 INFO    MainThread:3706712 [wandb_setup.py:_flush():76] Loading settings from /home/lab/.config/wandb/settings
+2022-05-20 22:07:45,246 INFO    MainThread:3706712 [wandb_setup.py:_flush():76] Loading settings from /scratch/WVG/yolor/wandb/settings
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'train.py'}
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_init.py:_log_setup():428] Logging user logs to /scratch/WVG/yolor/wandb/run-20220520_220745-2nv8kpdh/logs/debug.log
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_init.py:_log_setup():429] Logging internal logs to /scratch/WVG/yolor/wandb/run-20220520_220745-2nv8kpdh/logs/debug-internal.log
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_init.py:init():462] calling init triggers
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {'weights': 'p6_weights', 'cfg': 'cfg/yolor_p6.cfg', 'data': '/scratch/WVG/yolor/PCB-upright-27/data.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.2, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.5, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0}, 'epochs': 300, 'batch_size': 8, 'img_size': [640, 640], 'rect': False, 'resume': False, 'nosave': False, 'notest': False, 'noautoanchor': False, 'evolve': False, 'bucket': '', 'cache_images': False, 'image_weights': False, 'device': '0', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'local_rank': -1, 'log_imgs': 16, 'workers': 8, 'project': 'runs/train', 'name': 'yolor_p6', 'exist_ok': False, 'total_batch_size': 8, 'world_size': 1, 'global_rank': -1, 'save_dir': 'runs/train/yolor_p660'}
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [wandb_init.py:init():515] starting backend
+2022-05-20 22:07:45,247 INFO    MainThread:3706712 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-05-20 22:07:45,299 INFO    MainThread:3706712 [backend.py:ensure_launched():217] starting backend process...
+2022-05-20 22:07:45,432 INFO    MainThread:3706712 [backend.py:ensure_launched():222] started backend process with pid: 3706797
+2022-05-20 22:07:45,433 INFO    MainThread:3706712 [wandb_init.py:init():525] backend started and connected
+2022-05-20 22:07:45,440 INFO    MainThread:3706712 [wandb_init.py:init():596] updated telemetry
+2022-05-20 22:07:45,545 INFO    MainThread:3706712 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-05-20 22:07:46,672 INFO    MainThread:3706712 [wandb_run.py:_on_init():1924] communicating current version
+2022-05-20 22:07:46,734 INFO    MainThread:3706712 [wandb_run.py:_on_init():1928] got version response 
+2022-05-20 22:07:46,734 INFO    MainThread:3706712 [wandb_init.py:init():662] starting run threads in backend
+2022-05-20 22:07:51,325 INFO    MainThread:3706712 [wandb_run.py:_console_start():1898] atexit reg
+2022-05-20 22:07:51,325 INFO    MainThread:3706712 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2022-05-20 22:07:51,326 INFO    MainThread:3706712 [wandb_run.py:_redirect():1776] Redirecting console.
+2022-05-20 22:07:51,331 INFO    MainThread:3706712 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-05-20 22:07:51,331 INFO    MainThread:3706712 [wandb_init.py:init():688] run started, returning control to user process
+2022-05-21 11:18:18,619 INFO    MainThread:3706712 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2022-05-21 11:18:18,620 INFO    MainThread:3706712 [wandb_run.py:_restore():1839] restore
+2022-05-21 11:18:26,185 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:18:31,286 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:18:36,387 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:18:41,488 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:18:46,589 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:18:51,690 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:18:56,791 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:01,892 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:06,993 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:12,094 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:17,195 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:22,296 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:27,398 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:32,499 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:37,600 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:42,701 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:47,802 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:52,903 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:19:58,004 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:20:03,105 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:20:08,205 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:20:13,306 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:20:18,407 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:20:23,508 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-05-21 11:20:28,609 INFO    MainThread:3706712 [wandb_run.py:_on_finish():1996] got exit ret: None

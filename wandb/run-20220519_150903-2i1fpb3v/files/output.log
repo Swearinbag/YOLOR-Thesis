@@ -1,0 +1,73 @@
+Scanning labels PCB-upright-25/train/labels.cache3 (55 found, 0 missing, 0 empty, 0 duplicate, for 55 images): 55it [00:00, 7599.13it/s]
+Scanning labels PCB-upright-25/valid/labels.cache3 (16 found, 0 missing, 0 empty, 0 duplicate, for 16 images): 16it [00:00, 7155.23it/s]
+Image sizes 1280 train, 1280 test
+Using 0 dataloader workers
+Logging results to runs/train/yolor_p647
+Starting training for 350 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   348/349     5.45G   0.02647   0.03344   0.01547   0.07539        94      1280
+/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/optim/lr_scheduler.py:136: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p647/conf/conf_e348.jpg
+                 all          16         912       0.111       0.189       0.178      0.0815
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   349/349     5.43G   0.02657   0.03525   0.01365   0.07547       128      1280
+               Class      Images     Targets           P           R      mAP@.5
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 443, in train
+    n_epoch=epoch)
+  File "/scratch/WVG/yolor/test.py", line 247, in test
+    "domain": "pixel"} for *xyxy, conf, cls in pred.tolist()]
+  File "/scratch/WVG/yolor/test.py", line 247, in <listcomp>
+    "domain": "pixel"} for *xyxy, conf, cls in pred.tolist()]
+TypeError: list indices must be integers or slices, not float

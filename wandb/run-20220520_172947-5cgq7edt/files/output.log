@@ -1,0 +1,41 @@
+Scanning images: 100%|██████████████████████| 486/486 [00:00<00:00, 4133.74it/s]
+Scanning labels PCB-upright-26/sliced/train/train.cache3 (486 found, 0 missing, 0 empty, 0 duplicate, for 486 images): 486it [00:00, 8355.32it/s]
+Scanning labels PCB-upright-26/valid/labels.cache3 (16 found, 0 missing, 0 empty, 0 duplicate, for 16 images): 16it [00:00, 5544.81it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p655
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+     0/299     6.48G    0.0958   0.09276   0.04774    0.2363       211       640
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 346, in train
+    pred = model(imgs)  # forward
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/scratch/WVG/yolor/models/models.py", line 543, in forward
+    return self.forward_once(x)
+  File "/scratch/WVG/yolor/models/models.py", line 604, in forward_once
+    x = module(x)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 423, in forward
+    return self._conv_forward(input, self.weight)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 420, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 910.00 MiB (GPU 0; 7.79 GiB total capacity; 2.41 GiB already allocated; 925.56 MiB free; 5.62 GiB reserved in total by PyTorch)

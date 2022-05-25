@@ -1,0 +1,182 @@
+
+Scanning labels PCB-upright-18/sliced/train/train.cache3 (5154 found, 0 missing, 0 empty, 0 duplicate, for 5154 images): 5154it [00:00, 8832.19it/s]
+Scanning labels PCB-upright-18/sliced/valid/train.cache3 (1916 found, 0 missing, 0 empty, 0 duplicate, for 1916 images): 1916it [00:00, 7020.87it/s]
+Image sizes 320 train, 320 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p643
+Starting training for 1500 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1337/1499     3.72G  0.006559   0.02081 0.0003039   0.02767        35       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5342, 5)
+pred: (18022, 6)
+                 all    1.92e+03    5.36e+03        0.69        0.62       0.662       0.506
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1338/1499     3.62G  0.006752   0.02134 0.0004084    0.0285        52       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5342, 5)
+pred: (18074, 6)
+                 all    1.92e+03    5.36e+03        0.69        0.62       0.662       0.506
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1339/1499     3.62G  0.006758    0.0209 0.0003208   0.02798        31       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5342, 5)
+pred: (18067, 6)
+                 all    1.92e+03    5.36e+03       0.689       0.622       0.663       0.507
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1340/1499     3.62G  0.006731    0.0214 0.0003592   0.02849        40       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5346, 5)
+pred: (18090, 6)
+                 all    1.92e+03    5.36e+03       0.688       0.622       0.663       0.508
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1341/1499     3.62G  0.006824   0.02171 0.0003495   0.02888        38       320
+               Class      Images     Targets           P           R      mAP@.5
+targ: (5346, 5)

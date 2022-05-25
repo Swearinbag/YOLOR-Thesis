@@ -1,0 +1,22 @@
+/scratch/WVG/yolor/runs/train/yolor_p611/weights/epoch_999.pt has been trained for 999 epochs. Fine-tuning for 1 additional epochs.
+Scanning labels PCB-upright-10/train/labels.cache3 (1658 found, 0 missing, 3870 empty, 0 duplicate, for 5528 images): 5528it [00:00, 28364.61it/s]
+Scanning labels PCB-upright-10/valid/labels.cache3 (205 found, 0 missing, 365 empty, 0 duplicate, for 570 images): 570it [00:00, 23149.17it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 0 dataloader workers
+Logging results to runs/train/yolor_p6113
+Starting training for 1000 epochs...
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 547, in train
+    ['results.png', 'precision-recall_curve.png']]})
+  File "train.py", line 546, in <listcomp>
+    wandb.log({"Results": [wandb.Image(str(save_dir / x), caption=x) for x in
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/wandb/sdk/data_types/image.py", line 141, in __init__
+    self._initialize_from_path(data_or_path)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/wandb/sdk/data_types/image.py", line 235, in _initialize_from_path
+    self._set_file(path, is_tmp=False)
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/wandb/sdk/data_types/base_types/media.py", line 65, in _set_file
+    with open(self._path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'runs/train/yolor_p6113/precision-recall_curve.png'

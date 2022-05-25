@@ -1,0 +1,43 @@
+{
+    "os": "Linux-5.4.0-105-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-05-19T07:24:30.110905",
+    "startedAt": "2022-05-19T07:24:28.581298",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--batch-size",
+        "6",
+        "--img",
+        "1280",
+        "--data",
+        "/scratch/WVG/yolor/PCB-upright-25/data.yaml",
+        "--cfg",
+        "cfg/yolor_p6.cfg",
+        "--weights",
+        "p6_weights",
+        "--device",
+        "0",
+        "--name",
+        "yolor_p6",
+        "--hyp",
+        "/scratch/WVG/yolor/data/hyp.scratch.1280.yaml",
+        "--epochs",
+        "350"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/roboflow-ai/yolor",
+        "commit": "eb3ef0b7472413d6740f5cde39beb1a2f5b8b5d1"
+    },
+    "email": null,
+    "root": "/scratch/WVG/yolor",
+    "host": "dremel.telin",
+    "username": "lab",
+    "executable": "/scratch/anaconda3/envs/wvgPCB/bin/python"
+}

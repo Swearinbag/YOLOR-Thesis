@@ -1,0 +1,122 @@
+Scanning labels PCB-upright-21/train/labels.cache3 (1206 found, 0 missing, 252 empty, 0 duplicate, for 1458 images): 1458it [00:00, 10482.74it/s]
+Scanning labels PCB-upright-21/valid/labels.cache3 (177 found, 0 missing, 0 empty, 0 duplicate, for 177 images): 177it [00:00, 4037.72it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p646
+Starting training for 1500 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    0/1499     5.81G   0.08922   0.06486   0.05052    0.2046        38       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    1/1499     6.46G   0.07922   0.06348   0.04574    0.1884        20       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    2/1499     6.46G    0.0801    0.0635   0.04284    0.1864        41       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    3/1499     6.46G   0.07932    0.0625   0.03975    0.1816        36       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1057, 5)
+pred: (53100, 6)
+                 all         177    1.06e+03           0           0    0.000484    0.000101
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size

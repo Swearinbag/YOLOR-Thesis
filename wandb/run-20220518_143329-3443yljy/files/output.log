@@ -1,0 +1,111 @@
+Scanning images: 100%|██████████████████████| 513/513 [00:00<00:00, 4345.45it/s]
+Scanning labels PCB-upright-22/train/labels.cache3 (513 found, 0 missing, 0 empty, 0 duplicate, for 513 images): 513it [00:00, 8944.90it/s]
+Scanning images: 100%|██████████████████████| 193/193 [00:00<00:00, 2283.98it/s]
+Scanning labels PCB-upright-22/valid/labels.cache3 (193 found, 0 missing, 0 empty, 0 duplicate, for 193 images): 193it [00:00, 3888.50it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p647
+Starting training for 1500 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+    0/1499     5.78G    0.1031   0.07537   0.05398    0.2325        64       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+    1/1499     6.45G   0.08677   0.07672    0.0526    0.2161        83       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+    2/1499     6.45G   0.08352   0.07514   0.04987    0.2085        64       640
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+    3/1499     6.45G   0.08339   0.07751   0.04853    0.2094        25       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1193, 5)
+pred: (57900, 6)
+                 all         193    1.19e+03           0           0    0.000994    0.000198
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+    4/1499     6.47G   0.08269    0.0764   0.04677    0.2059        68       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1193, 5)
+pred: (57900, 6)
+                 all         193    1.19e+03           0           0     0.00137    0.000384
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+    5/1499     6.47G   0.07926   0.07753   0.04393    0.2007        82       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1193, 5)
+pred: (57900, 6)
+                 all         193    1.19e+03           0           0     0.00221    0.000495
+New overall best!
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+    6/1499     6.48G   0.08096   0.07468   0.04372    0.1994       118       640
+               Class      Images     Targets           P           R      mAP@.5
+targ: (1193, 5)
+pred: (57900, 6)
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 443, in train
+    n_epoch=epoch)
+  File "/scratch/WVG/yolor/test.py", line 332, in test
+    conf_mat = createConfMat(np.array(pred_L),np.array(targ_L),names,exclude=0,conftresh=opt.conf_thres,IoUtresh=opt.iou_thres)
+NameError: name 'opt' is not defined

@@ -1,0 +1,25 @@
+Scanning labels PCB-upright-28/train/labels.cache3 (1530 found, 0 missing, 4410 empty, 0 duplicate, for 5940 images): 5940it [00:00, 33281.50it/s]
+Scanning labels PCB-upright-28/valid/labels.cache3 (205 found, 0 missing, 371 empty, 0 duplicate, for 576 images): 576it [00:00, 10478.48it/s]
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+Image sizes 640 train, 640 test
+Using 4 dataloader workers
+Logging results to runs/train/yolor_p673
+Starting training for 1000 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+  0%|                                                   | 0/425 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 346, in train
+    pred = model(imgs)  # forward
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/scratch/WVG/yolor/models/models.py", line 543, in forward
+    return self.forward_once(x)
+  File "/scratch/WVG/yolor/models/models.py", line 594, in forward_once
+    x = module(x, out)  # WeightedFeatureFusion(), FeatureConcat()
+  File "/scratch/anaconda3/envs/wvgPCB/lib/python3.7/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/scratch/WVG/yolor/utils/layers.py", line 404, in forward
+    return a.expand_as(x) * x
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 7.79 GiB total capacity; 6.32 GiB already allocated; 21.38 MiB free; 6.47 GiB reserved in total by PyTorch)

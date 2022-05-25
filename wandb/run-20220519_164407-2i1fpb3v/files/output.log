@@ -1,0 +1,39 @@
+Scanning labels PCB-upright-25/train/labels.cache3 (55 found, 0 missing, 0 empty, 0 duplicate, for 55 images): 55it [00:00, 7500.79it/s]
+Scanning labels PCB-upright-25/valid/labels.cache3 (16 found, 0 missing, 0 empty, 0 duplicate, for 16 images): 16it [00:00, 7006.56it/s]
+Image sizes 1280 train, 1280 test
+Using 0 dataloader workers
+Logging results to runs/train/yolor_p647
+Starting training for 350 epochs...
+     Epoch   gpu_mem       box       obj       cls     total   targets  img_size
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   349/349     5.45G   0.02678   0.03355   0.01544   0.07578        94      1280
+               Class      Images     Targets           P           R      mAP@.5
+targ: (912, 5)
+pred: (4800, 6)
+runs/train/yolor_p647/conf/conf_e349.jpg
+                 all          16         912       0.105        0.19       0.175      0.0784
+Optimizer stripped from runs/train/yolor_p647/weights/last.pt, 148.1MB
+Optimizer stripped from runs/train/yolor_p647/weights/best.pt, 148.1MB
+Images sizes do not match. This will causes images to be display incorrectly in the UI.
+1 epochs completed in 0.016 hours.

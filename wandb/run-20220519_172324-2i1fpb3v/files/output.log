@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 637, in <module>
+    train(hyp, opt, device, tb_writer, wandb)
+  File "train.py", line 189, in train
+    assert start_epoch > 0, '%s training to %g epochs is finished, nothing to resume.' % (weights, epochs)
+AssertionError: ./runs1/train/yolor_p647/weights/last.pt training to 350 epochs is finished, nothing to resume.
