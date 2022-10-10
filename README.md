@@ -23,6 +23,6 @@ Attempted changes:
   - freezing layers/showing layer structure (not supported by model/wrong approach)
 - - -
  
- # mAP Results
+ # mAP Results (in function of number of iterations)
 
 ![metrics_mAP_0 5_TP_git](https://user-images.githubusercontent.com/13786325/174066742-a56143c8-da3b-4b35-87e3-3fa96d53ab6f.png)
