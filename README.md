@@ -12,7 +12,7 @@ The main changes are in found in the following files, followed by the changes ma
   - added confusion matrix that saves matrix/epoch with epoch number in "/conf/" folder within run directory.
   - added visual feedback for shape of predictions/labels
 - detect.py:
-  - added confusion matrix
+  - added confusion matrix (called after each epoch. Returns cumulative detections)
 - config file:
   - subdivisions up to 16 (more accuracy, standard at 8)
 
